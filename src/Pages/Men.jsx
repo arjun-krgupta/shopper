@@ -1,7 +1,7 @@
 import React from 'react';
-import allen_solly from '../Component/Product/All-men-data/all_men_data';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import allen_solly from '../Component/Product/All-men-data/All_data';
 
 function Men(props) {
   const redirect=useNavigate()
