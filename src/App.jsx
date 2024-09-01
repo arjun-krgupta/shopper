@@ -5,7 +5,6 @@ import Laptop from './Pages/Laptop';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Home from './Component/Home/Home';
-import Men from './Pages/Men'
 import Women from './Pages/Women'
 import Mobile from './Pages/Mobile'
 import Realme from './Pages/Mobile/Realme'
@@ -21,6 +20,7 @@ import Asus from './Pages/Laptop/Asus';
 import Apple from './Pages/Laptop/Apple';
 import Acer from './Pages/Laptop/Acer';
 import Slider from './Component/Slider';
+import Men from './Pages/Men';
 
 
 function App(props) {

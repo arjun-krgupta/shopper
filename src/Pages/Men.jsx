@@ -10,10 +10,10 @@ function Men(props) {
         <h1 className='text-4xl font-bold my-3 text-center md:text-6xl'>Shop by Brand</h1>
         <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/realme')}} >Allen Solly</h4>
+            <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/allen_solly')}} >Allen Solly</h4>
             <Link to='/allen_solly' className=''>View all</Link>
             </div>
-                {/* Realme */}
+                {/* Allen Solly */}
             <hr className='w-full' />
             <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
             {allen_solly.map((val,i)=>
