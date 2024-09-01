@@ -5,7 +5,7 @@ import Laptop from './Pages/Laptop';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Home from './Component/Home/Home';
-// import Men from './Pages/Men'
+import Men from './Pages/Men'
 import Women from './Pages/Women'
 import Mobile from './Pages/Mobile'
 import Realme from './Pages/Mobile/Realme'
@@ -33,7 +33,7 @@ function App(props) {
         <Route path="/mobile" element={<Mobile/>} />
         <Route path='/laptop' element={<Laptop/>} />
         <Route path='/cart' element={<Cart/>} />
-        {/* <Route path='/men' element={<Men/>} /> */}
+        <Route path='/men' element={<Men/>} />
         <Route path='/women' element={<Women/>} />
         <Route path='/login' element={<LoginSignup/>} />
         <Route path='/realme' element={<Realme/>} />
