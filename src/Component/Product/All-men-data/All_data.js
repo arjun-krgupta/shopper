@@ -1,5 +1,5 @@
 import hoodie from '../../Assets/men/Allen Solly/Hoodie/1.jpeg'
-import jeans from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
+import jeans from '../../Assets/men/Allen Solly/Jeans/25.jpeg'
 import shirt from '../../Assets/men/Allen Solly/Shirt/1.jpeg'
 import pant from '../../Assets/men/Allen Solly/Pant/1.jpeg'
 import lower from '../../Assets/men/Allen Solly/Lower/1.jpeg'
