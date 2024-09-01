@@ -1,7 +1,10 @@
 import React from 'react';
 import allen_solly from '../Component/Product/All-men-data/all_men_data';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Men(props) {
+    const redirect =useNavigate()
     return (
         <>
         <h1 className='text-4xl font-bold my-3 text-center md:text-6xl'>Shop by Brand</h1>
