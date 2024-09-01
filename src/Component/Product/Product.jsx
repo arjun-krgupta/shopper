@@ -151,7 +151,7 @@ function Product(props) {
         <div className="men-area mt-3 mx-2 pb-3 ">
           <div className="flex justify-between items-center pt-3 pb-4 mx-4">
             <h3 className='font-bold text-base md:text-xl'>Men Collection</h3>
-            <Link to="/" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
+            <Link to="/men" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
           <div className="flex justify-around overflow-x-scroll webkit w-full gap-2 px-2 py-2 sm:px-3">
             <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-2 px-3 cursor-pointer hover:scale-[1.04] hover:transition rounded sm:w-36 md:w-44">

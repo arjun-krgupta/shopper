@@ -21,6 +21,12 @@ import Apple from './Pages/Laptop/Apple';
 import Acer from './Pages/Laptop/Acer';
 import Slider from './Component/Slider';
 import Men from './Pages/Men';
+import Allen_Solly from './Pages/Allen_Solly';
+import Mufti from './Pages/Mufti';
+import Cobb from './Pages/Cobb';
+import Adidas from './Pages/Adidas';
+import Peter_England from './Pages/Peter_England';
+import Nike from './Pages/Nike';
 
 
 function App(props) {
@@ -48,7 +54,13 @@ function App(props) {
         <Route path='/asus' element={<Asus/>} />
         <Route path='/apple' element={<Apple/>} />
         <Route path='/acer' element={<Acer/>} />
-        <Route path='/slider' element={<Slider/>} /> 
+        <Route path='/slider' element={<Slider/>} />
+        <Route path='/allen_solly' element={<Allen_Solly/>} /> 
+        <Route path='/mufti' element={<Mufti/>} /> 
+        <Route path='/cobb' element={<Cobb/>} /> 
+        <Route path='/adidas' element={<Adidas/>} /> 
+        <Route path='/peter_england' element={<Peter_England/>} /> 
+        <Route path='/nike' element={<Nike/>} /> 
      </Routes>
      </BrowserRouter>
      </>

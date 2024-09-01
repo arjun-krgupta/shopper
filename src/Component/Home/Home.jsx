@@ -17,25 +17,25 @@ function Home(props) {
     <>
       {/* front-view */}
       <div className="flex justify-center items-center gap-2 mt-3 lg:mt-4" >
-        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.05] hover:transition-[0.6s] cursor-pointer  sm:me-3 md:me-7 lg:me-32" onClick={()=>{redirect('/mobile')}}>
+        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.01] hover:transition-[0.3s] cursor-pointer  sm:me-3 md:me-7 lg:me-32" onClick={()=>{redirect('/mobile')}}>
             <div className="w-12 sm:w-20 md:w-24 lg:w-[105px]">
             <img src={mobile} alt="" className="max-w-full h-auto"/>
             </div>
           <p className='text-sm md:text-base'>Mobile</p>
         </div>
-        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.05] hover:transition-[0.6s] cursor-pointer sm:me-3 md:me-7 lg:me-24" onClick={()=>{redirect("/laptop")}}>
+        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.01] hover:transition-[0.3s] cursor-pointer sm:me-3 md:me-7 lg:me-24" onClick={()=>{redirect("/laptop")}}>
             <div className="w-12 sm:w-20 md:w-24 lg:w-[105px]">
             <img src={laptop} alt="" className="max-w-full h-auto"/>
             </div>
           <p className='text-sm md:text-base'>Laptop</p>
         </div>
-        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.05] hover:transition-[0.6s] cursor-pointer sm:me-3 md:me-7 lg:me-24" onClick={()=>{redirect("/men")}}>
+        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.01] hover:transition-[0.3s] cursor-pointer sm:me-3 md:me-7 lg:me-24" onClick={()=>{redirect("/men")}}>
             <div className="w-12 sm:w-20 md:w-24 lg:w-[105px]">
             <img src={men} alt="" className="max-w-full h-auto" />
             </div>
           <p className='text-sm md:text-base'>Men</p>
         </div>
-        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.05] hover:transition-[0.6s] cursor-pointer sm:" onClick={()=>{redirect("/women")}}>
+        <div className="flex flex-col items-center w-28 hover:text-blue-600 hover:scale-[1.01] hover:transition-[0.3s] cursor-pointer sm:" onClick={()=>{redirect("/women")}}>
             <div className="w-12 sm:w-20 md:w-24 lg:w-[105px]">
             <img src={women} alt="" className="max-w-full h-auto"/>
             </div>
