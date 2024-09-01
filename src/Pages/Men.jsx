@@ -17,8 +17,10 @@ function Men(props) {
             <hr className='w-full' />
             <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
             {allen_solly.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 md:h-32 px-3 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 px-3 " key={i}>
+                <div className="md:w-28 md:24">
                 <img src={val.image} alt="" className='max-w-full h-auto' />
+                </div>
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-sm">{val.name}</div>
