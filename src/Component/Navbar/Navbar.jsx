@@ -46,7 +46,7 @@ function Navbar() {
           </div>
         </div>
         {/* search box */}
-        <div className="flex justify-between w-[80%] border bg-white ps-4 pe-2 mx-auto rounded sm:w-[35%] sm:absolute top-5 left-52 md:left-[250px] lg:left-[450px] lg:w-[30%]" >
+        <div className="flex justify-between w-[80%] border bg-white ps-4 pe-2 mx-auto rounded sm:w-[35%] sm:absolute top-5 left-52 md:left-[250px] lg:left-[500px] lg:w-[25%]" >
           <input type="text" placeholder="Search..." className="border-0 outline-none" />
           <i className="fa-solid fa-magnifying-glass cursor-pointer  text-[#0d6efd] text-xl lg:text-2xl"></i>
          </div>
