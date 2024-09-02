@@ -358,7 +358,7 @@ export {peter_england}
 let nike=[
     {
         id:1,
-        brand:"Highlander",
+        brand:"Nike",
         name:"Hoodie",
         image:hoodie,
         new_price:"₹1379",
@@ -369,7 +369,7 @@ let nike=[
     },
     {
         id:2,
-        brand:"Highlander",
+        brand:"Nike",
         name:"Jeans",
         image:jeans,
         new_price:"₹1379",
@@ -391,7 +391,7 @@ let nike=[
     },
     {
         id:4,
-        brand:"Highlander",
+        brand:"Nike",
         name:"Pant",
         image:pant,
         new_price:"₹1379",
@@ -402,7 +402,7 @@ let nike=[
     },
     {
         id:5,
-        brand:"Highlander",
+        brand:"Nike",
         name:"Lower",
         image:lower,
         new_price:"₹1379",
@@ -413,7 +413,7 @@ let nike=[
     },
     {
         id:6,
-        brand:"Highlander",
+        brand:"Nike",
         name:"T-shirt",
         image:t_shirt,
         new_price:"₹1379",
