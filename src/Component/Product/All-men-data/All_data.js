@@ -1,4 +1,9 @@
-import hoodie from '../../Assets/men/Allen Solly/Hoodie/1.jpeg'
+import allen_hoodie from '../../Assets/men/Allen Solly/Hoodie/1.jpeg'
+import mufti_hoodie from '../../Assets/men/Mufti/Hoodie/1.jpg'
+import cobb_hoodie from '../../Assets/men/Cobb/Hoodie/1.jpeg'
+import adidas_hoodie from '../../Assets/men/Adidas/Hoodie/1.jpeg'
+import peter_hoodie from '../../Assets/men/Peter England/Hoodie/1.jpeg'
+import nike_hoodie from '../../Assets/men/Nike/Hoodie/1.jpg'
 import jeans from '../../Assets/men/Allen Solly/Jeans/25.jpeg'
 import shirt from '../../Assets/men/Allen Solly/Shirt/1.jpeg'
 import pant from '../../Assets/men/Allen Solly/Pant/1.jpeg'
@@ -10,7 +15,7 @@ let allen_solly=[
         id:1,
         brand:"Allen Solly",
         name:"Hoodie",
-        image:hoodie,
+        image:allen_hoodie,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -80,7 +85,7 @@ let mufti=[
         id:1,
         brand:"Mufti",
         name:"Hoodie",
-        image:hoodie,
+        image:mufti_hoodie,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -150,7 +155,7 @@ let Cobb=[
         id:1,
         brand:"Cobb Italy",
         name:"Hoodie",
-        image:hoodie,
+        image:cobb_hoodie,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -220,7 +225,7 @@ let adidas=[
         id:1,
         brand:"Adidas",
         name:"Hoodie",
-        image:hoodie,
+        image:adidas_hoodie,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -290,7 +295,7 @@ let peter_england=[
         id:1,
         brand:"Peter England",
         name:"Hoodie",
-        image:hoodie,
+        image:peter_hoodie,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -360,7 +365,7 @@ let nike=[
         id:1,
         brand:"Nike",
         name:"Hoodie",
-        image:hoodie,
+        image:nike_hoodie,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
