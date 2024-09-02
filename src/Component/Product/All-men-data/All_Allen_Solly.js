@@ -254,7 +254,7 @@ let lower=[
     {
         id:1,
         brand:"Allen Solly",
-        name:"Lower",
+        name:"Track Pants",
         image:l1,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -265,7 +265,7 @@ let lower=[
     {
         id:2,
         brand:"Allen Solly",
-        name:"Lower",
+        name:"Track Pants",
         image:l2,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -276,7 +276,7 @@ let lower=[
     {
         id:3,
         brand:"Allen Solly",
-        name:"Lower",
+        name:"Track Pants",
         image:l3,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -287,7 +287,7 @@ let lower=[
     {
         id:4,
         brand:"Allen Solly",
-        name:"Lower",
+        name:"Track Pants",
         image:l4,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -298,7 +298,7 @@ let lower=[
     {
         id:5,
         brand:"Allen Solly",
-        name:"Lower",
+        name:"Track Pants",
         image:l5,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -309,7 +309,7 @@ let lower=[
     {
         id:6,
         brand:"Allen Solly",
-        name:"Lower",
+        name:"Track Pants",
         image:l6,
         new_price:"₹1379",
         old_price:"₹2299",

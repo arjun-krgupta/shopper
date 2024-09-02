@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import allen_solly, { adidas, Cobb, mufti, nike, peter_england } from '../Component/Product/All-men-data/All_data';
+import allen_solly, { adidas, Cobb, mufti, nike, peter_england } from '../Component/Product/All-men-data/All_Men_data';
 import allen_icon from '../Component/Assets/men/icon/allen-solly.png'
 import mufti_icon from '../Component/Assets/men/icon/mufti.png'
 import cobb_icon from '../Component/Assets/men/icon/cobb.png'

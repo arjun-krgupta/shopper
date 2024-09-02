@@ -5,12 +5,12 @@ import h4 from '../../Assets/men/Peter England/Hoodie/4.jpeg'
 import h5 from '../../Assets/men/Peter England/Hoodie/5.jpeg'
 import h6 from '../../Assets/men/Peter England/Hoodie/6.jpeg'
 
-import j1 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
-import j2 from '../../Assets/men/Allen Solly/Jeans/2.jpeg'
-import j3 from '../../Assets/men/Allen Solly/Jeans/3.jpeg'
-import j4 from '../../Assets/men/Allen Solly/Jeans/4.jpeg'
-import j5 from '../../Assets/men/Allen Solly/Jeans/5.jpeg'
-import j6 from '../../Assets/men/Allen Solly/Jeans/6.jpeg'
+import j1 from '../../Assets/men/Peter England/Jeans/1.jpeg'
+import j2 from '../../Assets/men/Peter England/Jeans/2.jpeg'
+import j3 from '../../Assets/men/Peter England/Jeans/3.jpeg'
+import j4 from '../../Assets/men/Peter England/Jeans/4.jpeg'
+import j5 from '../../Assets/men/Peter England/Jeans/5.jpeg'
+import j6 from '../../Assets/men/Peter England/Jeans/6.jpeg'
 
 import p1 from '../../Assets/men/Allen Solly/Pant/1.jpeg'
 import p2 from '../../Assets/men/Allen Solly/Pant/2.jpeg'
@@ -254,7 +254,7 @@ let lower=[
     {
         id:1,
         brand:"Peter England",
-        name:"Lower",
+        name:"Track Pants",
         image:l1,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -265,7 +265,7 @@ let lower=[
     {
         id:2,
         brand:"Peter England",
-        name:"Lower",
+        name:"Track Pants",
         image:l2,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -276,7 +276,7 @@ let lower=[
     {
         id:3,
         brand:"Peter England",
-        name:"Lower",
+        name:"Track Pants",
         image:l3,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -287,7 +287,7 @@ let lower=[
     {
         id:4,
         brand:"Peter England",
-        name:"Lower",
+        name:"Track Pants",
         image:l4,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -298,7 +298,7 @@ let lower=[
     {
         id:5,
         brand:"Peter England",
-        name:"Lower",
+        name:"Track Pants",
         image:l5,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -309,7 +309,7 @@ let lower=[
     {
         id:6,
         brand:"Peter England",
-        name:"Lower",
+        name:"Track Pants",
         image:l6,
         new_price:"₹1379",
         old_price:"₹2299",

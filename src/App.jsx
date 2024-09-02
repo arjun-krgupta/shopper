@@ -28,6 +28,11 @@ import Adidas from './Pages/Adidas';
 import Peter_England from './Pages/Peter_England';
 import Nike from './Pages/Nike';
 import Hoodie from './Pages/Men/Hoodie';
+import Jeans from './Pages/Men/Jeans';
+import Lower from './Pages/Men/Lower';
+import Pant from './Pages/Men/Pant';
+import Shirt from './Pages/Men/Shirt';
+import TShirt from './Pages/Men/Tshirt';
 
 
 function App(props) {
@@ -63,6 +68,11 @@ function App(props) {
         <Route path='/peter_england' element={<Peter_England/>} /> 
         <Route path='/nike' element={<Nike/>} /> 
         <Route path='/hoodie' element={<Hoodie/>} />
+        <Route path='/jeans' element={<Jeans/>} />
+        <Route path='/lower' element={<Lower/>} />
+        <Route path='/pant' element={<Pant/>} />
+        <Route path='/shirt' element={<Shirt/>} />
+        <Route path='/t-shirt' element={<TShirt/>} />
      </Routes>
      </BrowserRouter>
      </>
