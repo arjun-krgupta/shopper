@@ -1,9 +1,9 @@
-import h1 from '../../Assets/men/Allen Solly/Hoodie/11.jpeg'
-import h2 from '../../Assets/men/Allen Solly/Hoodie/2.jpeg'
-import h3 from '../../Assets/men/Allen Solly/Hoodie/3.jpeg'
-import h4 from '../../Assets/men/Allen Solly/Hoodie/4.jpeg'
-import h5 from '../../Assets/men/Allen Solly/Hoodie/5.jpeg'
-import h6 from '../../Assets/men/Allen Solly/Hoodie/6.jpeg'
+import h1 from '../../Assets/men/Peter England/Hoodie/1.jpeg'
+import h2 from '../../Assets/men/Peter England/Hoodie/2.jpeg'
+import h3 from '../../Assets/men/Peter England/Hoodie/3.jpeg'
+import h4 from '../../Assets/men/Peter England/Hoodie/4.jpeg'
+import h5 from '../../Assets/men/Peter England/Hoodie/5.jpeg'
+import h6 from '../../Assets/men/Peter England/Hoodie/6.jpeg'
 
 import j1 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
 import j2 from '../../Assets/men/Allen Solly/Jeans/2.jpeg'
@@ -44,7 +44,7 @@ let hoodie=[
     {
         id:1,
         brand:"Peter England",
-        name:"Hoodie",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h1,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -55,7 +55,7 @@ let hoodie=[
     {
         id:2,
         brand:"Peter England",
-        name:"Hoodie",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h2,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -66,7 +66,7 @@ let hoodie=[
     {
         id:3,
         brand:"Peter England",
-        name:"Hoodie",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h3,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -77,7 +77,7 @@ let hoodie=[
     {
         id:4,
         brand:"Peter England",
-        name:"Hoodie",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h4,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -88,7 +88,7 @@ let hoodie=[
     {
         id:5,
         brand:"Peter England",
-        name:"Hoodie",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h5,
         new_price:"₹1379",
         old_price:"₹2299",
@@ -99,14 +99,14 @@ let hoodie=[
     {
         id:6,
         brand:"Peter England",
-        name:"Hoodie",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h6,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
-    }
+    },
 ]
 export {hoodie}
 

@@ -36,7 +36,7 @@ function Product(props) {
         {/* Mobile */}
         <div className="mobile-area mt-3 mx-2 pb-3 ">
           <div className="flex justify-between items-center pt-3 pb-4 mx-4">
-            <h3 className='font-bold text-base md:text-xl'>Mobile Category</h3>
+            <h3 className='font-bold text-base md:text-xl cursor-pointer hover:underline' onClick={()=>{redirect('/mobile')}}>Mobile Category</h3>
             <Link to="/mobile" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
           <div className="flex justify-around overflow-x-scroll webkit w-full gap-2 px-2  py-2 sm:px-3">
@@ -93,7 +93,7 @@ function Product(props) {
         {/* laptop */}
         <div className="laptop-area mt-3 mx-2 pb-3">
           <div className="flex justify-between items-center pt-3 pb-4 mx-4">
-            <h3 className='font-bold text-base md:text-xl'>Laptops</h3>
+            <h3 className='font-bold text-base cursor-pointer md:text-xl hover:underline' onClick={()=>{redirect('/laptop')}}>Laptops</h3>
             <Link to="/laptop"  className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
           <div className="flex justify-around overflow-x-scroll webkit w-full gap-2 px-2 py-1 sm:px-3">
@@ -150,17 +150,17 @@ function Product(props) {
         {/* Mens */}
         <div className="men-area mt-3 mx-2 pb-3 ">
           <div className="flex justify-between items-center pt-3 pb-4 mx-4">
-            <h3 className='font-bold text-base md:text-xl'>Men Collection</h3>
+            <h3 className='font-bold text-base cursor-pointer md:text-xl hover:underline' onClick={()=>{redirect('/men')}}>Men Collection</h3>
             <Link to="/men" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
-          <div className="flex justify-around overflow-x-scroll webkit w-full gap-2 px-2 py-2 sm:px-3">
+          <div className="flex justify-around overflow-x-scroll webkit w-full gap-2 px-2 py-2 sm:px-3" onClick={()=>{redirect('/hoodie')}}>
             <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-2 px-3 cursor-pointer hover:scale-[1.04] hover:transition rounded sm:w-36 md:w-44">
               <img src={m1} alt=""  className='max-w-full h-auto' />
-              <div  className='text-sm font-bold md:text-xl'>Hoodie</div>
+            <div  className='text-sm font-bold md:text-xl'>Hoodie</div>
               <div className="flex gap-5">
                   <div className="text-xs sm:text-sm md:text-base">₹1400</div>
                   <div className='text-xs line-through text-gray-600 sm:text-sm md:text-base'>₹1700</div>
-                </div>
+              </div>
             </div>
             <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-2 px-3 cursor-pointer hover:scale-[1.04] hover:transition rounded sm:w-36 md:w-44">
               <img src={m2} alt=""  className='max-w-full h-auto' />
@@ -207,7 +207,7 @@ function Product(props) {
         {/* Women */}
         <div className="women-area mt-3 mx-2 pb-3">
           <div className="flex justify-between items-center pt-3 pb-4 mx-4">
-            <h3 className='font-bold text-base md:text-xl'>Women Collection</h3>
+            <h3 className='font-bold text-base cursor-pointer hover:underline md:text-xl' onClick={()=>{redirect('/women')}}>Women Collection</h3>
             <Link to="/women" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
           <div className="flex justify-around overflow-x-scroll webkit w-full gap-2 px-2 py-2 sm:px-3">

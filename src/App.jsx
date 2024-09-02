@@ -27,6 +27,7 @@ import Cobb from './Pages/Cobb';
 import Adidas from './Pages/Adidas';
 import Peter_England from './Pages/Peter_England';
 import Nike from './Pages/Nike';
+import Hoodie from './Pages/Men/Hoodie';
 
 
 function App(props) {
@@ -61,6 +62,7 @@ function App(props) {
         <Route path='/adidas' element={<Adidas/>} /> 
         <Route path='/peter_england' element={<Peter_England/>} /> 
         <Route path='/nike' element={<Nike/>} /> 
+        <Route path='/hoodie' element={<Hoodie/>} />
      </Routes>
      </BrowserRouter>
      </>

@@ -45,9 +45,9 @@ function Nike(props) {
             </div>
                 {/* Hoodie */}
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
             {hoodie.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 px-3 w-36 sm:w-40 md:w-44 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -72,9 +72,9 @@ function Nike(props) {
             </div>
                 {/* Jeans */}
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
             {jeans.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 px-3 w-36 sm:w-40 md:w-44 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -99,9 +99,9 @@ function Nike(props) {
             </div>
                 {/* Shirt */}
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
             {shirt.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 px-3 w-36 sm:w-40 md:w-44 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -126,9 +126,9 @@ function Nike(props) {
             </div>
                 {/* Pant */}
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
             {pant.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 px-3 w-36 sm:w-40 md:w-44 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -153,9 +153,9 @@ function Nike(props) {
             </div>
                 {/* T-shirt */}
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
             {t_shirt.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 px-3 w-36 sm:w-40 md:w-44 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -180,9 +180,9 @@ function Nike(props) {
             </div>
                 {/* Lower */}
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
             {lower.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 px-3 w-36 sm:w-40 md:w-44 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
