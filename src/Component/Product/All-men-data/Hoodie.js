@@ -41,6 +41,12 @@ import h40 from '../../Assets/men/Nike/Hoodie/5.jpeg'
 import h41 from '../../Assets/men/Nike/Hoodie/6.jpeg'
 import h42 from '../../Assets/men/Nike/Hoodie/7.jpeg'
 import h43 from '../../Assets/men/Nike/Hoodie/8.jpeg'
+import h44 from '../../Assets/men/Mufti/Hoodie/1.jpg'
+import h45 from '../../Assets/men/Mufti/Hoodie/2.jpg'
+import h46 from '../../Assets/men/Mufti/Hoodie/3.jpeg'
+import h47 from '../../Assets/men/Mufti/Hoodie/4.jpg'
+import h48 from '../../Assets/men/Mufti/Hoodie/5.jpg'
+import h49 from '../../Assets/men/Mufti/Hoodie/6.jpeg'
 
 let hoodie_product=[
     {
@@ -552,6 +558,78 @@ let hoodie_product=[
         brand:"Nike",
         name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h43,
+        new_price:"₹1379",
+        old_price:"₹2299",
+        offer:"40% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"M , L , XL",
+    },
+    {
+        id:44,
+        brand:"Mufti",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
+        image:h44,
+        new_price:"₹1379",
+        old_price:"₹2299",
+        offer:"40% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"M , L , XL",
+    },
+    {
+        id:45,
+        brand:"Mufti",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
+        image:h45,
+        new_price:"₹1379",
+        old_price:"₹2299",
+        offer:"40% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"M , L , XL",
+    },
+    {
+        id:46,
+        brand:"Mufti",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
+        image:h46,
+        new_price:"₹1379",
+        old_price:"₹2299",
+        offer:"40% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"M , L , XL",
+    },
+    {
+        id:47,
+        brand:"Mufti",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
+        image:h47,
+        new_price:"₹1379",
+        old_price:"₹2299",
+        offer:"40% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"M , L , XL",
+    },
+    {
+        id:48,
+        brand:"Mufti",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
+        image:h48,
+        new_price:"₹1379",
+        old_price:"₹2299",
+        offer:"40% off",
+        rating:"4.3★",
+        review:1256, 
+        size:"M , L , XL",
+    },
+    {
+        id:49,
+        brand:"Mufti",
+        name:"Men Full Sleeve Solid Hooded Sweatshirt",
+        image:h49,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
