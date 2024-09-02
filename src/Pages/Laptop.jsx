@@ -43,7 +43,7 @@ function Laptop(props) {
          {/* Hp */}
          <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]' >Hp Laptops</h4>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/hp')}} >Hp Laptops</h4>
             <Link to='/hp' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
@@ -69,7 +69,7 @@ function Laptop(props) {
           {/* Dell */}
           <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]' >Dell Laptops</h4>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/dell')}} >Dell Laptops</h4>
             <Link to='/dell' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
@@ -95,7 +95,7 @@ function Laptop(props) {
              {/* Lenovo */}
              <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]'>Lenovo Laptops</h4>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/lenovo')}}>Lenovo Laptops</h4>
             <Link to='/lenovo' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
@@ -121,7 +121,7 @@ function Laptop(props) {
            {/* Asus */}
            <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]'>Asus Laptops</h4>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/asus')}}>Asus Laptops</h4>
             <Link to='/asus' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
@@ -147,8 +147,8 @@ function Laptop(props) {
             {/* Acer */}
             <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]'>Acer Laptops</h4>
-            <Link to='/asus' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/acer')}}>Acer Laptops</h4>
+            <Link to='/acer' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
             <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
@@ -173,8 +173,8 @@ function Laptop(props) {
           {/* Apple */}
           <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]'>Apple Laptops</h4>
-            <Link to='/asus' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/apple')}}>Apple Laptops</h4>
+            <Link to='/apple' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
             <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
