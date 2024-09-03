@@ -34,11 +34,11 @@ import Shirt from './Pages/Men/Shirt';
 import TShirt from './Pages/Men/Tshirt';
 import Lehenga from './Pages/Women/Lehenga';
 import Gown from './Pages/Women/Gown'
-import One_Piece from './Pages/Women/One_Piece'
 import Salwar_suit from './Pages/Women/Salwar_suit';
 import Suit from './Pages/Women/Suit';
 import T_Shirt from './Pages/Women/T_Shirt';
 import Women from './Pages/Women'
+import One_Piece from './Pages/Women/One_Piece';
 
 
 function App(props) {
