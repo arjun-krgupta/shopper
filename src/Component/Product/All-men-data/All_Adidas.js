@@ -51,6 +51,7 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:2,
@@ -62,6 +63,7 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:3,
@@ -73,6 +75,7 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:4,
@@ -84,6 +87,7 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:5,
@@ -95,6 +99,7 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:6,
@@ -106,6 +111,7 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     }
 ]
 export {hoodie}
@@ -121,6 +127,7 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:2,
@@ -132,6 +139,7 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:3,
@@ -143,6 +151,7 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:4,
@@ -154,6 +163,7 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:5,
@@ -165,6 +175,7 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:6,
@@ -176,6 +187,7 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     }
 ]
 export {jeans}
@@ -191,6 +203,7 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:2,
@@ -202,6 +215,7 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:3,
@@ -213,6 +227,7 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:4,
@@ -224,6 +239,7 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:5,
@@ -235,6 +251,7 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:6,
@@ -246,6 +263,7 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     }
 ]
 export {pant}
@@ -261,6 +279,7 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:2,
@@ -272,6 +291,7 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:3,
@@ -283,6 +303,7 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:4,
@@ -294,6 +315,7 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:5,
@@ -304,7 +326,8 @@ let lower=[
         old_price:"₹2299",
         offer:"40% off",
         rating:"4.3★",
-        review:1256, 
+        review:1256,
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:6,
@@ -316,6 +339,7 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     }
 ]
 export {lower}
@@ -331,6 +355,7 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:2,
@@ -341,7 +366,8 @@ let shirt=[
         old_price:"₹2299",
         offer:"40% off",
         rating:"4.3★",
-        review:1256, 
+        review:1256,
+         size:"M , L , XL",
     },
     {
         id:3,
@@ -353,6 +379,7 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:4,
@@ -364,6 +391,7 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:5,
@@ -375,6 +403,7 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:6,
@@ -386,6 +415,7 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     }
 ]
 export {shirt}
@@ -401,6 +431,7 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:2,
@@ -412,6 +443,7 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:3,
@@ -423,6 +455,7 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:4,
@@ -434,6 +467,7 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:5,
@@ -445,6 +479,7 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:6,
@@ -456,6 +491,7 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     }
 ]
 export {t_shirt}

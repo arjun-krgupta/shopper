@@ -43,7 +43,7 @@ import ts6 from '../../Assets/men/Cobb/T-shirt/6.jpeg'
 let hoodie=[
     {
         id:1,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Hoodie",
         image:h1,
         new_price:"₹1379",
@@ -51,10 +51,11 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:2,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Hoodie",
         image:h2,
         new_price:"₹1379",
@@ -62,10 +63,11 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:3,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Hoodie",
         image:h3,
         new_price:"₹1379",
@@ -73,10 +75,11 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:4,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Hoodie",
         image:h4,
         new_price:"₹1379",
@@ -84,10 +87,11 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:5,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Hoodie",
         image:h5,
         new_price:"₹1379",
@@ -95,10 +99,11 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:6,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Hoodie",
         image:h6,
         new_price:"₹1379",
@@ -106,6 +111,7 @@ let hoodie=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     }
 ]
 export {hoodie}
@@ -113,7 +119,7 @@ export {hoodie}
 let jeans=[
     {
         id:1,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Jeans",
         image:j1,
         new_price:"₹1379",
@@ -121,10 +127,11 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:2,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Jeans",
         image:j2,
         new_price:"₹1379",
@@ -132,10 +139,11 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:3,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Jeans",
         image:j3,
         new_price:"₹1379",
@@ -143,10 +151,11 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:4,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Jeans",
         image:j4,
         new_price:"₹1379",
@@ -154,10 +163,11 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:5,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Jeans",
         image:j5,
         new_price:"₹1379",
@@ -165,10 +175,11 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:6,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Jeans",
         image:j6,
         new_price:"₹1379",
@@ -176,6 +187,7 @@ let jeans=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     }
 ]
 export {jeans}
@@ -183,7 +195,7 @@ export {jeans}
 let pant=[
     {
         id:1,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Pant",
         image:p1,
         new_price:"₹1379",
@@ -191,10 +203,11 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:2,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Pant",
         image:p2,
         new_price:"₹1379",
@@ -202,10 +215,11 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:3,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Pant",
         image:p3,
         new_price:"₹1379",
@@ -213,10 +227,11 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:4,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Pant",
         image:p4,
         new_price:"₹1379",
@@ -224,10 +239,11 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:5,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Pant",
         image:p5,
         new_price:"₹1379",
@@ -235,10 +251,11 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:6,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Pant",
         image:p6,
         new_price:"₹1379",
@@ -246,6 +263,7 @@ let pant=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     }
 ]
 export {pant}
@@ -253,7 +271,7 @@ export {pant}
 let lower=[
     {
         id:1,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Track Pants",
         image:l1,
         new_price:"₹1379",
@@ -261,10 +279,11 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:2,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Track Pants",
         image:l2,
         new_price:"₹1379",
@@ -272,10 +291,11 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:3,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Track Pants",
         image:l3,
         new_price:"₹1379",
@@ -283,10 +303,11 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:4,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Track Pants",
         image:l4,
         new_price:"₹1379",
@@ -294,21 +315,23 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:5,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Track Pants",
         image:l5,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
         rating:"4.3★",
-        review:1256, 
+        review:1256,
+        size:"30 , 32 , 34 , 36",
     },
     {
         id:6,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Track Pants",
         image:l6,
         new_price:"₹1379",
@@ -316,6 +339,7 @@ let lower=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"30 , 32 , 34 , 36",
     }
 ]
 export {lower}
@@ -323,7 +347,7 @@ export {lower}
 let shirt=[
     {
         id:1,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Shirt",
         image:s1,
         new_price:"₹1379",
@@ -331,21 +355,23 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:2,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Shirt",
         image:s2,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
         rating:"4.3★",
-        review:1256, 
+        review:1256,
+         size:"M , L , XL",
     },
     {
         id:3,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Shirt",
         image:s3,
         new_price:"₹1379",
@@ -353,10 +379,11 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:4,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Shirt",
         image:s4,
         new_price:"₹1379",
@@ -364,10 +391,11 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:5,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Shirt",
         image:s5,
         new_price:"₹1379",
@@ -375,10 +403,11 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:6,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"Shirt",
         image:s6,
         new_price:"₹1379",
@@ -386,6 +415,7 @@ let shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     }
 ]
 export {shirt}
@@ -393,7 +423,7 @@ export {shirt}
 let t_shirt=[
     {
         id:1,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"T-Shirt",
         image:ts1,
         new_price:"₹1379",
@@ -401,10 +431,11 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:2,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"T-Shirt",
         image:ts2,
         new_price:"₹1379",
@@ -412,10 +443,11 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:3,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"T-Shirt",
         image:ts3,
         new_price:"₹1379",
@@ -423,10 +455,11 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:4,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"T-Shirt",
         image:ts4,
         new_price:"₹1379",
@@ -434,10 +467,11 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:5,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"T-Shirt",
         image:ts5,
         new_price:"₹1379",
@@ -445,10 +479,11 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     },
     {
         id:6,
-        brand:"Cobb Italy",
+        brand:"Adidas",
         name:"T-Shirt",
         image:ts6,
         new_price:"₹1379",
@@ -456,6 +491,7 @@ let t_shirt=[
         offer:"40% off",
         rating:"4.3★",
         review:1256, 
+        size:"M , L , XL",
     }
 ]
 export {t_shirt}
