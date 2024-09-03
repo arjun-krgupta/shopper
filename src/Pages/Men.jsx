@@ -35,7 +35,7 @@ function Men(props) {
             </div>
         </div>
 
-        <h1 className='text-4xl font-bold my-3 text-center md:text-6xl'>Shop by Brand</h1>
+        <h1 className='text-4xl font-bold my-3 text-center md:text-5xl'>Shop by Brand</h1>
         
         <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">

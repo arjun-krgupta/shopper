@@ -16,3 +16,11 @@
 .webkit::-webkit-scrollbar{
     display: none;
   }
+
+  
+/* mobile */
+.mobile-area,.laptop-area,.men-area,.women-area{
+    box-shadow: 1px 1px 1px 2px rgb(241, 235, 235);
+    background-color: rgb(252, 250, 250);
+}
+

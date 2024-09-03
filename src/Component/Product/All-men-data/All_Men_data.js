@@ -1,21 +1,51 @@
-import allen_hoodie from '../../Assets/men/Allen Solly/Hoodie/1.jpeg'
-import mufti_hoodie from '../../Assets/men/Mufti/Hoodie/1.jpg'
-import cobb_hoodie from '../../Assets/men/Cobb/Hoodie/1.jpeg'
-import adidas_hoodie from '../../Assets/men/Adidas/Hoodie/1.jpeg'
-import peter_hoodie from '../../Assets/men/Peter England/Hoodie/1.jpeg'
-import nike_hoodie from '../../Assets/men/Nike/Hoodie/1.jpg'
-import jeans from '../../Assets/men/Allen Solly/Jeans/25.jpeg'
-import shirt from '../../Assets/men/Allen Solly/Shirt/1.jpeg'
-import pant from '../../Assets/men/Allen Solly/Pant/1.jpeg'
-import lower from '../../Assets/men/Allen Solly/Lower/1.jpeg'
-import t_shirt from '../../Assets/men/Allen Solly/T-shirt/1.jpeg'
+import h1 from '../../Assets/men/Allen Solly/Hoodie/2.jpeg'
+import h2 from '../../Assets/men/Mufti/Hoodie/1.jpg'
+import h3 from '../../Assets/men/Cobb/Hoodie/1.jpeg'
+import h4 from '../../Assets/men/Adidas/Hoodie/1.jpeg'
+import h5 from '../../Assets/men/Peter England/Hoodie/2.jpeg'
+import h6 from '../../Assets/men/Nike/Hoodie/1.jpg'
+
+import j1 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
+import j2 from '../../Assets/men/Mufti/Jeans/10.jpeg'
+import j3 from '../../Assets/men/Cobb/Jeans/1.jpeg'
+import j4 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
+import j5 from '../../Assets/men/Peter England/Jeans/1.jpeg'
+import j6 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
+
+import s1 from '../../Assets/men/Allen Solly/Shirt/1.jpeg'
+import s2 from '../../Assets/men/Mufti/Shirt/1.jpg'
+import s3 from '../../Assets/men/Cobb/Shirt/1.jpg'
+import s4 from '../../Assets/men/Allen Solly/Shirt/1.jpeg'
+import s5 from '../../Assets/men/Peter England/Shirt/1.jpeg'
+import s6 from '../../Assets/men/Allen Solly/Shirt/1.jpeg'
+
+import p1 from '../../Assets/men/Allen Solly/Pant/1.jpeg'
+import p2 from '../../Assets/men/Mufti/Pant/3.jpeg'
+import p3 from '../../Assets/men/Cobb/Pant/1.jpg'
+import p4 from '../../Assets/men/Allen Solly/Pant/1.jpeg'
+import p5 from '../../Assets/men/Peter England/Pant/1.jpeg'
+import p6 from '../../Assets/men/Allen Solly/Pant/1.jpeg'
+
+import l1 from '../../Assets/men/Allen Solly/Lower/1.jpeg'
+import l2 from '../../Assets/men/Allen Solly/Lower/1.jpeg'
+import l3 from '../../Assets/men/Cobb/Lower/1.jpeg'
+import l4 from '../../Assets/men/Adidas/Lower/1.jpeg'
+import l5 from '../../Assets/men/Peter England/Lower/1.jpeg'
+import l6 from '../../Assets/men/Nike/Lower/1.jpeg'
+
+import t1 from '../../Assets/men/Allen Solly/T-shirt/1.jpeg'
+import t2 from '../../Assets/men/Mufti/T-shirt/15.jpeg'
+import t3 from '../../Assets/men/Cobb/T-shirt/1.jpeg'
+import t4 from '../../Assets/men/Adidas/T-shirt/1.jpeg'
+import t5 from '../../Assets/men/Peter England/T-shirt/1.jpeg'
+import t6 from '../../Assets/men/Nike/T-shirt/1.jpg'
 
 let allen_solly=[
     {
         id:1,
         brand:"Allen Solly",
         name:"Hoodie",
-        image:allen_hoodie,
+        image:h1,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -26,7 +56,7 @@ let allen_solly=[
         id:2,
         brand:"Allen Solly",
         name:"Jeans",
-        image:jeans,
+        image:j1,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -37,7 +67,7 @@ let allen_solly=[
         id:3,
         brand:"Allen Solly",
         name:"Shirt",
-        image:shirt,
+        image:s1,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -48,7 +78,7 @@ let allen_solly=[
         id:4,
         brand:"Allen Solly",
         name:"Pant",
-        image:pant,
+        image:p1,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -59,7 +89,7 @@ let allen_solly=[
         id:5,
         brand:"Allen Solly",
         name:"Lower",
-        image:lower,
+        image:l1,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -70,7 +100,7 @@ let allen_solly=[
         id:6,
         brand:"Allen Solly",
         name:"T-shirt",
-        image:t_shirt,
+        image:t1,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -85,7 +115,7 @@ let mufti=[
         id:1,
         brand:"Mufti",
         name:"Hoodie",
-        image:mufti_hoodie,
+        image:h2,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -96,7 +126,7 @@ let mufti=[
         id:2,
         brand:"Mufti",
         name:"Jeans",
-        image:jeans,
+        image:j2,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -107,7 +137,7 @@ let mufti=[
         id:3,
         brand:"Mufti",
         name:"Shirt",
-        image:shirt,
+        image:s2,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -118,7 +148,7 @@ let mufti=[
         id:4,
         brand:"Mufti",
         name:"Pant",
-        image:pant,
+        image:p2,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -129,7 +159,7 @@ let mufti=[
         id:5,
         brand:"Mufti",
         name:"Lower",
-        image:lower,
+        image:l2,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -140,7 +170,7 @@ let mufti=[
         id:6,
         brand:"Mufti",
         name:"T-shirt",
-        image:t_shirt,
+        image:t2,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -155,7 +185,7 @@ let Cobb=[
         id:1,
         brand:"Cobb Italy",
         name:"Hoodie",
-        image:cobb_hoodie,
+        image:h3,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -166,7 +196,7 @@ let Cobb=[
         id:2,
         brand:"Cobb Italy",
         name:"Jeans",
-        image:jeans,
+        image:j3,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -177,7 +207,7 @@ let Cobb=[
         id:3,
         brand:"Cobb Italy",
         name:"Shirt",
-        image:shirt,
+        image:s3,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -188,7 +218,7 @@ let Cobb=[
         id:4,
         brand:"Cobb Italy",
         name:"Pant",
-        image:pant,
+        image:p3,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -199,7 +229,7 @@ let Cobb=[
         id:5,
         brand:"Cobb Italy",
         name:"Lower",
-        image:lower,
+        image:l3,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -210,7 +240,7 @@ let Cobb=[
         id:6,
         brand:"Cobb Italy",
         name:"T-shirt",
-        image:t_shirt,
+        image:t3,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -225,7 +255,7 @@ let adidas=[
         id:1,
         brand:"Adidas",
         name:"Hoodie",
-        image:adidas_hoodie,
+        image:h4,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -236,7 +266,7 @@ let adidas=[
         id:2,
         brand:"Adidas",
         name:"Jeans",
-        image:jeans,
+        image:j4,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -247,7 +277,7 @@ let adidas=[
         id:3,
         brand:"Adidas",
         name:"Shirt",
-        image:shirt,
+        image:s4,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -258,7 +288,7 @@ let adidas=[
         id:4,
         brand:"Adidas",
         name:"Pant",
-        image:pant,
+        image:p4,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -269,7 +299,7 @@ let adidas=[
         id:5,
         brand:"Adidas",
         name:"Lower",
-        image:lower,
+        image:l4,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -280,7 +310,7 @@ let adidas=[
         id:6,
         brand:"Adidas",
         name:"T-shirt",
-        image:t_shirt,
+        image:t4,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -295,7 +325,7 @@ let peter_england=[
         id:1,
         brand:"Peter England",
         name:"Hoodie",
-        image:peter_hoodie,
+        image:h5,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -306,7 +336,7 @@ let peter_england=[
         id:2,
         brand:"Peter England",
         name:"Jeans",
-        image:jeans,
+        image:j5,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -317,7 +347,7 @@ let peter_england=[
         id:3,
         brand:"Peter England",
         name:"Shirt",
-        image:shirt,
+        image:s5,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -328,7 +358,7 @@ let peter_england=[
         id:4,
         brand:"Peter England",
         name:"Pant",
-        image:pant,
+        image:p5,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -339,7 +369,7 @@ let peter_england=[
         id:5,
         brand:"Peter England",
         name:"Lower",
-        image:lower,
+        image:l5,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -350,7 +380,7 @@ let peter_england=[
         id:6,
         brand:"Peter England",
         name:"T-shirt",
-        image:t_shirt,
+        image:t5,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -365,7 +395,7 @@ let nike=[
         id:1,
         brand:"Nike",
         name:"Hoodie",
-        image:nike_hoodie,
+        image:h6,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -376,7 +406,7 @@ let nike=[
         id:2,
         brand:"Nike",
         name:"Jeans",
-        image:jeans,
+        image:j6,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -387,7 +417,7 @@ let nike=[
         id:3,
         brand:"Peter England",
         name:"Shirt",
-        image:shirt,
+        image:s6,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -398,7 +428,7 @@ let nike=[
         id:4,
         brand:"Nike",
         name:"Pant",
-        image:pant,
+        image:p6,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -409,7 +439,7 @@ let nike=[
         id:5,
         brand:"Nike",
         name:"Lower",
-        image:lower,
+        image:l6,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
@@ -420,7 +450,7 @@ let nike=[
         id:6,
         brand:"Nike",
         name:"T-shirt",
-        image:t_shirt,
+        image:t6,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",

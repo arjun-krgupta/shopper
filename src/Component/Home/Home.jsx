@@ -44,7 +44,7 @@ function Home(props) {
       </div>
    
       {/* Slider */}
-      <div id="carouselExampleIndicators" className="carousel slide mt-1">
+      <div id="carouselExampleIndicators" className="carousel slide mt-1" data-bs-ride="carousel" data-bs-interval="4000">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
