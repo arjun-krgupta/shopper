@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import lehenga, { gown, one_piece, suit, suit_salwar, tShirt_Women } from '../Component/Product/All-women-data/All_Women_data';
-import { t_shirt } from '../Component/Product/All-men-data/All_Allen_Solly';
 import lehenga_icon from '../Component/Assets/women/lehenga.jpeg'
 import gown_icon from '../Component/Assets/women/gown.jpeg'
 import onePiece_icon from '../Component/Assets/women/one-piece.jpeg'

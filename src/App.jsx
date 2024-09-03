@@ -5,7 +5,6 @@ import Laptop from './Pages/Laptop';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Home from './Component/Home/Home';
-import Women from './Pages/Women'
 import Mobile from './Pages/Mobile'
 import Realme from './Pages/Mobile/Realme'
 import Vivo from './Pages/Mobile/Vivo'
@@ -39,6 +38,7 @@ import One_Piece from './Pages/Women/One_Piece'
 import Salwar_suit from './Pages/Women/Salwar_suit';
 import Suit from './Pages/Women/Suit';
 import T_Shirt from './Pages/Women/T_Shirt';
+import Women from './Pages/Women'
 
 
 function App(props) {
