@@ -14,7 +14,7 @@ function Women(props) {
   const redirect=useNavigate()
     return (
         <>
-        {/* Men Clothes Brand icon */}
+        {/* Women Clothes icon */}
         <div className='flex justify-center items-center gap-4 w-full mt-2'>
             <div className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/lehenga')}}>
             <img src={lehenga_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
