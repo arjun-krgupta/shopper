@@ -2,13 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import lehenga, { gown, one_piece, suit, suit_salwar, tshirt_Women} from '../Component/Product/All-women-data/All_Women_data';
-import lehenga_icon from '../Component/Assets/women/icon/lehenga.jpeg'
+import lehenga_icon from '../Component/Assets/women/icon/Lehenga.jpeg'
 import gown_icon from '../Component/Assets/women/icon/gown.jpeg'
 import onePiece_icon from '../Component/Assets/women/icon/one-piece.jpeg'
 import suitSalwar_icon from '../Component/Assets/women/icon/suit-salwar.jpeg'
 import suit_icon from '../Component/Assets/women/icon/suit.jpeg'
 import tShirt_icon from '../Component/Assets/women/icon/t-shirt.jpeg'
-
 
 function Women(props) {
   const redirect=useNavigate()
