@@ -33,12 +33,12 @@ import s4 from '../../Assets/women/Suit/4.jpeg'
 import s5 from '../../Assets/women/Suit/5.jpeg'
 import s6 from '../../Assets/women/Suit/6.jpeg'
 
-import ts1 from '../../Assets/women/T-shirt/1.jpeg'
-import ts2 from '../../Assets/women/T-shirt/2.jpeg'
-import ts3 from '../../Assets/women/T-shirt/3.jpeg'
-import ts4 from '../../Assets/women/T-shirt/4.jpeg'
-import ts5 from '../../Assets/women/T-shirt/5.jpeg'
-import ts6 from '../../Assets/women/T-shirt/6.jpeg'
+import ts1 from '../../Assets/women/T-Shirt/1.jpeg'
+import ts2 from '../../Assets/women/T-Shirt/2.jpeg'
+import ts3 from '../../Assets/women/T-Shirt/3.jpeg'
+import ts4 from '../../Assets/women/T-Shirt/4.jpeg'
+import ts5 from '../../Assets/women/T-Shirt/5.jpeg'
+import ts6 from '../../Assets/women/T-Shirt/6.jpeg'
 
 let lehenga=[
     {
