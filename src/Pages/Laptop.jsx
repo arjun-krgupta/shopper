@@ -47,9 +47,9 @@ function Laptop(props) {
             <Link to='/hp' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
             {hp_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.03] hover:transition" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s]" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm font-bold">{val.name}</div>
@@ -73,9 +73,9 @@ function Laptop(props) {
             <Link to='/dell' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
             {dell_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.03] hover:transition " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm font-bold">{val.name}</div>
@@ -99,9 +99,9 @@ function Laptop(props) {
             <Link to='/lenovo' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
             {lenovo_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.03] hover:transition " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm font-bold">{val.name}</div>
@@ -125,9 +125,9 @@ function Laptop(props) {
             <Link to='/asus' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
             {asus_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.03] hover:transition " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm font-bold">{val.name}</div>
@@ -151,9 +151,9 @@ function Laptop(props) {
             <Link to='/acer' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
             {acer_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.03] hover:transition " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm font-bold">{val.name}</div>
@@ -177,9 +177,9 @@ function Laptop(props) {
             <Link to='/apple' className='text-green-600 hover:underline hover:text-green-600'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-3">
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-3 px-3">
             {apple_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.03] hover:transition " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 px-3 hover:scale-[1.01] hover:transition[0.3s] " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm font-bold">{val.name}</div>

@@ -1,11 +1,6 @@
 import React from 'react';
 import { Link,useNavigate } from 'react-router-dom';
-import realme_product from '../Component/Product/All-mobile-data/All_Mobile_product';
-import oppo_product from '../Component/Product/All-mobile-data/All_Mobile_product';
-import iphone_product from '../Component/Product/All-mobile-data/All_Mobile_product';
-import { vivo_product } from '../Component/Product/All-mobile-data/All_Mobile_product';
-import { samsung_product } from '../Component/Product/All-mobile-data/All_Mobile_product';
-import { poco_product } from '../Component/Product/All-mobile-data/All_Mobile_product';
+import realme,{ iphone, oppo, poco, samsung, vivo } from '../Component/Product/All-mobile-data/All_Mobile_product';
 import sl1 from '../Component/Assets/Slider/1.jpg'
 import sl2 from '../Component/Assets/Slider/2.jpg'
 import sl3 from '../Component/Assets/Slider/3.jpg'
@@ -49,7 +44,7 @@ function Mobile(props) {
        {/* Realme */}
        <h1 className='text-4xl font-bold my-3 text-center md:text-6xl'>Shop by Brand</h1>
  {/* Slider */}
- <div id="carouselExampleIndicators" className="carousel slide mt-1">
+ <div id="carouselExampleIndicators" className="carousel slide mt-1" data-bs-ride="carousel" data-bs-interval="4000">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
@@ -128,14 +123,14 @@ function Mobile(props) {
       </div>
         <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/realme')}} >Realme Smartphones</h4>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/realme')}} >Realme Smartphones</h4>
             <Link to='/Realme' className=''>View all</Link>
             </div>
                 {/* Realme */}
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
-            {realme_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 px-3 " key={i}>
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            {realme.map((val,i)=>
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 px-2 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className="text-sm font-bold">{val.name}</div>
@@ -155,13 +150,13 @@ function Mobile(props) {
           {/* Vivo */}
           <hr className='w-full' />
         <div className="flex justify-between items-center px-4">
-        <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/vivo')}}>Vivo Smartphones</h4>
+        <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/vivo')}}>Vivo Smartphones</h4>
             <Link to='/vivo'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
-            {vivo_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-3" key={i}>
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            {vivo.map((val,i)=>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className=" text-sm font-bold">{val.name}</div>
@@ -181,13 +176,13 @@ function Mobile(props) {
           {/* Samsung */}
           <hr className='w-full' />
         <div className="flex justify-between items-center px-4">
-        <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/samsung')}}>Samsung Smartphones</h4>
+        <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/samsung')}}>Samsung Smartphones</h4>
             <Link to='/samsung'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
-            {samsung_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-3" key={i}>
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            {samsung.map((val,i)=>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className=" text-sm font-bold">{val.name}</div>
@@ -207,13 +202,13 @@ function Mobile(props) {
            {/* Poco */}
            <hr className='w-full' />
         <div className="flex justify-between items-center px-4">
-        <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/poco')}}>Poco Smartphones</h4>
+        <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/poco')}}>Poco Smartphones</h4>
             <Link to='/poco'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
-            {poco_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-3" key={i}>
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            {poco.map((val,i)=>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className=" text-sm font-bold">{val.name}</div>
@@ -233,13 +228,13 @@ function Mobile(props) {
            {/* Oppo */}
            <hr className='w-full' />
         <div className="flex justify-between items-center px-4">
-        <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/oppo')}}>Oppo Smartphones</h4>
+        <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/oppo')}}>Oppo Smartphones</h4>
             <Link to='/oppo'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
-            {oppo_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-3" key={i}>
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            {oppo.map((val,i)=>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className=" text-sm font-bold">{val.name}</div>
@@ -259,13 +254,13 @@ function Mobile(props) {
            {/* Iphone */}
            <hr className='w-full' />
         <div className="flex justify-between items-center px-4">
-        <h4 className='font-bold text-xl my-[6px]' onClick={()=>{redirect('/iphone')}}>Apple Smartphones</h4>
+        <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/iphone')}}>Apple Smartphones</h4>
             <Link to='/iphone'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-around overflow-x-scroll webkit w-full my-[10px]">
-            {iphone_product.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-3" key={i}>
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            {iphone.map((val,i)=>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
                 <div className=" text-sm font-bold">{val.name}</div>

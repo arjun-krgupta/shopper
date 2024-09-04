@@ -4,42 +4,42 @@ import h2 from '../../Assets/Laptop/Hp/HP AMD Ryzen 3 Quad Core 5300U.jpeg'
 import h3 from '../../Assets/Laptop/Hp/HP 255 G9 AMD Ryzen 3 Dual Core.jpeg'
 import h4 from '../../Assets/Laptop/Hp/HP 250 G9 Intel Core i3.jpeg'
 import h5 from '../../Assets/Laptop/Hp/HP Chromebook (2024) MediaTek.jpeg'
-import h6 from '../../Assets/Laptop/Hp/HP Intel Core i5.jpeg'
+// import h6 from '../../Assets/Laptop/Hp/HP Intel Core i5.jpeg'
 
 import d1 from '../../Assets/Laptop/Dell/DELL Inspiron 3520 Intel Core i3.jpeg'
 import d2 from '../../Assets/Laptop/Dell/DELL Intel Core i3 12th Gen.jpeg'
 import d3 from '../../Assets/Laptop/Dell/DELL 3540 Intel Core i3 12th Gen.jpeg'
 import d4 from '../../Assets/Laptop/Dell/DELL Intel Core i3 12th Gen.jpeg'
 import d5 from '../../Assets/Laptop/Dell/DELL Intel Core i5 13th Gen.jpeg'
-import d6 from '../../Assets/Laptop/Dell/DELL Inspiron Intel Core i5 12th Gen.jpeg'
+// import d6 from '../../Assets/Laptop/Dell/DELL Inspiron Intel Core i5 12th Gen.jpeg'
 
 import l1 from '../../Assets/Laptop/Lenovo/Lenovo V15 AMD Ryzen 3 Quad Core 7320U.jpeg'
 import l2 from '../../Assets/Laptop/Lenovo/Lenovo V15 Intel Celeron Dual Core.jpeg'
 import l3 from '../../Assets/Laptop/Lenovo/Lenovo IdeaPad Slim 1 AMD Ryzen 5 Quad Core.jpeg'
 import l4 from '../../Assets/Laptop/Lenovo/Lenovo AMD Ryzen 5 Hexa Core 7530.jpeg'
 import l5 from '../../Assets/Laptop/Lenovo/Lenovo IdeaPad Slim 5 AMD Ryzen 7 Octa Core 7730U.jpeg'
-import l6 from '../../Assets/Laptop/Lenovo/Lenovo AMD Ryzen 3 Quad Core 7330U.jpeg'
+// import l6 from '../../Assets/Laptop/Lenovo/Lenovo AMD Ryzen 3 Quad Core 7330U.jpeg'
 
 import a1 from '../../Assets/Laptop/Asus/ASUS Chromebook Intel Celeron Dual Core N4500.jpeg'
 import a2 from '../../Assets/Laptop/Asus/ASUS Vivobook Go 15 Intel Celeron Dual Core N4020.jpeg'
 import a3 from '../../Assets/Laptop/Asus/ASUS Vivobook 16 (2023) AMD Ryzen 5 Hexa Core 7530U.jpeg'
 import a4 from '../../Assets/Laptop/Asus/ASUS Vivobook Pro 15 OLED For Creator AMD Ryzen 7 Octa Core 5800HS.jpeg'
 import a5 from '../../Assets/Laptop/Asus/ASUS ExpertBook B15 Intel Core i3 12th Gen 1215U.jpeg'
-import a6 from '../../Assets/Laptop/Asus/ASUS TUF Gaming F15, 90WHrs Battery Intel Core i7 13th Gen 13620H.jpeg'
+// import a6 from '../../Assets/Laptop/Asus/ASUS TUF Gaming F15, 90WHrs Battery Intel Core i7 13th Gen 13620H.jpeg'
 
 import acer1 from '../../Assets/Laptop/Acer/ac1.jpeg'
 import acer2 from '../../Assets/Laptop/Acer/ac2.jpeg'
 import acer3 from '../../Assets/Laptop/Acer/ac3.jpeg'
 import acer4 from '../../Assets/Laptop/Acer/ac4.jpeg'
 import acer5 from '../../Assets/Laptop/Acer/ac5.jpeg'
-import acer6 from '../../Assets/Laptop/Acer/ac6.jpeg'
+// import acer6 from '../../Assets/Laptop/Acer/ac6.jpeg'
 
 import i1 from '../../Assets/Laptop/Apple/i1.jpeg'
 import i2 from '../../Assets/Laptop/Apple/i2.jpeg'
 import i3 from '../../Assets/Laptop/Apple/i3.jpeg'
 import i4 from '../../Assets/Laptop/Apple/i4.jpeg'
 import i5 from '../../Assets/Laptop/Apple/i5.jpeg'
-import i6 from '../../Assets/Laptop/Apple/i6.jpeg'
+// import i6 from '../../Assets/Laptop/Apple/i6.jpeg'
 
 
 
@@ -99,17 +99,17 @@ let hp_product=[
         new_price:"₹35,000",
         offer:"65% off",
     },
-    {
-        id: 6,
-        name:'HP Intel Core i5 12th Gen',
-        Detail:'16 GB/512 GB SSD',
-        rating:"4.2★",
-        review:1256,
-        image:h6,
-        old_price:"₹52,000",
-        new_price:"₹68,000",
-        offer:"22% off",
-    }
+    // {
+    //     id: 6,
+    //     name:'HP Intel Core i5 12th Gen',
+    //     Detail:'16 GB/512 GB SSD',
+    //     rating:"4.2★",
+    //     review:1256,
+    //     image:h6,
+    //     old_price:"₹52,000",
+    //     new_price:"₹68,000",
+    //     offer:"22% off",
+    // }
 ]
 export default hp_product
 
@@ -169,17 +169,17 @@ let dell_product=[
         new_price:"₹1,07,553",
         offer:"23% off",
     },
-    {
-        id: 6,
-        name:'DELL Inspiron Intel Core i5 12th Gen',
-        Detail:'8 GB/1 512 GB SSD',
-        rating:"4.2★",
-        review:1256,
-        image:d6,
-        old_price:"₹50,990",
-        new_price:"₹80,553",
-        offer:"37% off",
-    },
+    // {
+    //     id: 6,
+    //     name:'DELL Inspiron Intel Core i5 12th Gen',
+    //     Detail:'8 GB/1 512 GB SSD',
+    //     rating:"4.2★",
+    //     review:1256,
+    //     image:d6,
+    //     old_price:"₹50,990",
+    //     new_price:"₹80,553",
+    //     offer:"37% off",
+    // },
 ]
 export {dell_product}
 
@@ -239,17 +239,17 @@ let lenovo_product=[
         new_price:"₹93,553",
         offer:"36% off",
     },
-    {
-        id: 6,
-        name:'Lenovo AMD Ryzen 3 Quad Core 7330U ',
-        Detail:'8 GB/1 512 GB SSD',
-        rating:"4.2★",
-        review:1256,
-        image:l6,
-        old_price:"₹34,990",
-        new_price:"₹58,553",
-        offer:"40% off",
-    },
+    // {
+    //     id: 6,
+    //     name:'Lenovo AMD Ryzen 3 Quad Core 7330U ',
+    //     Detail:'8 GB/1 512 GB SSD',
+    //     rating:"4.2★",
+    //     review:1256,
+    //     image:l6,
+    //     old_price:"₹34,990",
+    //     new_price:"₹58,553",
+    //     offer:"40% off",
+    // },
 ]
 export {lenovo_product}
 
@@ -309,17 +309,17 @@ let asus_product=[
         new_price:"₹50,553",
         offer:"27% off",
     },
-    {
-        id: 6,
-        name:'ASUS TUF Gaming F15, 90WHrs Battery Intel Core ',
-        Detail:'8 GB/512 GB SSD',
-        rating:"4.2★",
-        review:1256,
-        image:a6,
-        old_price:"₹1,21,990",
-        new_price:"₹1,35,553",
-        offer:"10% off",
-    },
+    // {
+    //     id: 6,
+    //     name:'ASUS TUF Gaming F15, 90WHrs Battery Intel Core ',
+    //     Detail:'8 GB/512 GB SSD',
+    //     rating:"4.2★",
+    //     review:1256,
+    //     image:a6,
+    //     old_price:"₹1,21,990",
+    //     new_price:"₹1,35,553",
+    //     offer:"10% off",
+    // },
 ]
 export {asus_product}
 
@@ -379,17 +379,17 @@ let acer_product=[
         new_price:"₹50,553",
         offer:"27% off",
     },
-    {
-        id: 6,
-        name:'Acer Aspire 7 (2024) Intel Core i5 12th Gen 12450H ',
-        Detail:'8 GB/512 GB SSD',
-        rating:"4.2★",
-        review:1256,
-        image:acer6,
-        old_price:"₹1,21,990",
-        new_price:"₹1,35,553",
-        offer:"10% off",
-    },
+    // {
+    //     id: 6,
+    //     name:'Acer Aspire 7 (2024) Intel Core i5 12th Gen 12450H ',
+    //     Detail:'8 GB/512 GB SSD',
+    //     rating:"4.2★",
+    //     review:1256,
+    //     image:acer6,
+    //     old_price:"₹1,21,990",
+    //     new_price:"₹1,35,553",
+    //     offer:"10% off",
+    // },
 ]
 export {acer_product}
 
@@ -449,16 +449,16 @@ let apple_product=[
             new_price:"₹1,69,553",
             offer:"7% off",
     },
-    {
-        id: 6,
-        name:'Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS ',
-        Detail:'8 GB/512 GB SSD',
-        rating:"4.2★",
-        review:1256,
-        image:i6,
-        old_price:"₹1,06,990",
-        new_price:"₹1,15,553",
-        offer:"6% off",
-    },
+    // {
+    //     id: 6,
+    //     name:'Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS ',
+    //     Detail:'8 GB/512 GB SSD',
+    //     rating:"4.2★",
+    //     review:1256,
+    //     image:i6,
+    //     old_price:"₹1,06,990",
+    //     new_price:"₹1,15,553",
+    //     offer:"6% off",
+    // },
 ]
 export {apple_product}

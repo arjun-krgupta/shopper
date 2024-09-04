@@ -3,42 +3,42 @@ import l2 from '../../Assets/women/Lehenga/2.jpeg'
 import l3 from '../../Assets/women/Lehenga/3.jpeg'
 import l4 from '../../Assets/women/Lehenga/4.jpeg'
 import l5 from '../../Assets/women/Lehenga/5.jpeg'
-import l6 from '../../Assets/women/Lehenga/6.jpeg'
+// import l6 from '../../Assets/women/Lehenga/6.jpeg'
 
 import g1 from '../../Assets/women/Gown/1.jpeg'
 import g2 from '../../Assets/women/Gown/2.jpeg'
 import g3 from '../../Assets/women/Gown/3.jpeg'
 import g4 from '../../Assets/women/Gown/4.jpeg'
 import g5 from '../../Assets/women/Gown/5.jpeg'
-import g6 from '../../Assets/women/Gown/6.jpeg'
+// import g6 from '../../Assets/women/Gown/6.jpeg'
 
 import op1 from '../../Assets/women/One-Piece/1.jpeg'
 import op2 from '../../Assets/women/One-Piece/2.jpeg'
 import op3 from '../../Assets/women/One-Piece/3.jpeg'
 import op4 from '../../Assets/women/One-Piece/4.jpeg'
 import op5 from '../../Assets/women/One-Piece/5.jpeg'
-import op6 from '../../Assets/women/One-Piece/6.jpeg'
+// import op6 from '../../Assets/women/One-Piece/6.jpeg'
 
 import ss1 from '../../Assets/women/Salwar-Suit/1.jpeg'
 import ss2 from '../../Assets/women/Salwar-Suit/2.jpeg'
 import ss3 from '../../Assets/women/Salwar-Suit/3.jpeg'
 import ss4 from '../../Assets/women/Salwar-Suit/4.jpeg'
 import ss5 from '../../Assets/women/Salwar-Suit/5.jpeg'
-import ss6 from '../../Assets/women/Salwar-Suit/6.jpeg'
+// import ss6 from '../../Assets/women/Salwar-Suit/6.jpeg'
 
 import s1 from '../../Assets/women/Suit/1.jpeg'
 import s2 from '../../Assets/women/Suit/2.jpeg'
 import s3 from '../../Assets/women/Suit/3.jpeg'
 import s4 from '../../Assets/women/Suit/4.jpeg'
 import s5 from '../../Assets/women/Suit/5.jpeg'
-import s6 from '../../Assets/women/Suit/6.jpeg'
+// import s6 from '../../Assets/women/Suit/6.jpeg'
 
 import ts1 from '../../Assets/women/T-Shirt/1.jpeg'
 import ts2 from '../../Assets/women/T-Shirt/2.jpeg'
 import ts3 from '../../Assets/women/T-Shirt/3.jpeg'
 import ts4 from '../../Assets/women/T-Shirt/4.jpeg'
 import ts5 from '../../Assets/women/T-Shirt/5.jpeg'
-import ts6 from '../../Assets/women/T-Shirt/6.jpeg'
+// import ts6 from '../../Assets/women/T-Shirt/6.jpeg'
 
 let lehenga=[
     {
@@ -96,17 +96,17 @@ let lehenga=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        name:"Embroidered Semi Stitched Lehenga",
-        image:l6,
-        new_price:"₹15,920",
-        old_price:"₹19,899",
-        offer:"20% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
+    // {
+    //     id:6,
+    //     name:"Embroidered Semi Stitched Lehenga",
+    //     image:l6,
+    //     new_price:"₹15,920",
+    //     old_price:"₹19,899",
+    //     offer:"20% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // },
 ]
 export default lehenga;
 
@@ -166,17 +166,17 @@ let gown=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        name:"Printed Viscose Rayon Stitched Gown",
-        image:g6,
-        new_price:"₹1599",
-        old_price:"₹1999",
-        offer:"20% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
+    // {
+    //     id:6,
+    //     name:"Printed Viscose Rayon Stitched Gown",
+    //     image:g6,
+    //     new_price:"₹1599",
+    //     old_price:"₹1999",
+    //     offer:"20% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // },
 ]
 export {gown}
 
@@ -236,17 +236,17 @@ let one_piece=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        name:"Women One Piece dress",
-        image:op6,
-        new_price:"₹1599",
-        old_price:"₹1999",
-        offer:"20% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
+    // {
+    //     id:6,
+    //     name:"Women One Piece dress",
+    //     image:op6,
+    //     new_price:"₹1599",
+    //     old_price:"₹1999",
+    //     offer:"20% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // },
 ]
 export {one_piece}
 
@@ -306,17 +306,17 @@ let suit_salwar=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        name:"Women Viscose Rayon Kurta Pant Dupatta",
-        image:ss6,
-        new_price:"₹1599",
-        old_price:"₹1999",
-        offer:"20% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
+    // {
+    //     id:6,
+    //     name:"Women Viscose Rayon Kurta Pant Dupatta",
+    //     image:ss6,
+    //     new_price:"₹1599",
+    //     old_price:"₹1999",
+    //     offer:"20% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // },
 ]
 export {suit_salwar}
 
@@ -376,17 +376,17 @@ let suit=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        name:"Women Coat Solid Suit",
-        image:s6,
-        new_price:"₹15,920",
-        old_price:"₹19,899",
-        offer:"20% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
+    // {
+    //     id:6,
+    //     name:"Women Coat Solid Suit",
+    //     image:s6,
+    //     new_price:"₹15,920",
+    //     old_price:"₹19,899",
+    //     offer:"20% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // },
 ]
 export {suit}
 
@@ -446,16 +446,16 @@ let tshirt_Women=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        name:"Women Solid Cotton Blend T-Shirt",
-        image:ts6,
-        new_price:"₹799",
-        old_price:"₹1099",
-        offer:"20% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
+    // {
+    //     id:6,
+    //     name:"Women Solid Cotton Blend T-Shirt",
+    //     image:ts6,
+    //     new_price:"₹799",
+    //     old_price:"₹1099",
+    //     offer:"20% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // },
 ]
 export {tshirt_Women}

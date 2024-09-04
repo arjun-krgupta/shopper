@@ -39,16 +39,16 @@ function Adidas(props) {
         <h1 className='text-4xl font-semibold my-3 text-center md:text-5xl'>Adidas</h1>
         
         <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/hoodie')}} >Hoodie</h4>
             <Link to='/hoodie' className=''>View all</Link>
             </div>
                 {/* Hoodie */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
             {hoodie.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -66,16 +66,16 @@ function Adidas(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/jeans')}} >Jeans</h4>
             <Link to='/jeans' className=''>View all</Link>
             </div>
                 {/* Jeans */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {jeans.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -93,16 +93,16 @@ function Adidas(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/shirt')}} >Shirt</h4>
             <Link to='/shirt' className=''>View all</Link>
             </div>
                 {/* Shirt */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {shirt.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -120,16 +120,16 @@ function Adidas(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/pant')}} >Pant</h4>
             <Link to='/pant' className=''>View all</Link>
             </div>
                 {/* Pant */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {pant.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -147,16 +147,16 @@ function Adidas(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/tshirt_men')}} >T-Shirt</h4>
             <Link to='/tshirt_men' className=''>View all</Link>
             </div>
                 {/* T-shirt */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {t_shirt.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -174,16 +174,16 @@ function Adidas(props) {
             </div>
             
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/lower')}} >Track Pants</h4>
             <Link to='/lower' className=''>View all</Link>
             </div>
                 {/* Lower */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-[40px] overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {lower.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>

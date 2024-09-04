@@ -3,42 +3,42 @@ import h2 from '../../Assets/men/Adidas/Hoodie/2.jpeg'
 import h3 from '../../Assets/men/Adidas/Hoodie/3.jpeg'
 import h4 from '../../Assets/men/Adidas/Hoodie/4.jpeg'
 import h5 from '../../Assets/men/Adidas/Hoodie/5.jpeg'
-import h6 from '../../Assets/men/Adidas/Hoodie/6.jpeg'
+// import h6 from '../../Assets/men/Adidas/Hoodie/6.jpeg'
 
 import j1 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
 import j2 from '../../Assets/men/Allen Solly/Jeans/2.jpeg'
 import j3 from '../../Assets/men/Allen Solly/Jeans/3.jpeg'
 import j4 from '../../Assets/men/Allen Solly/Jeans/4.jpeg'
 import j5 from '../../Assets/men/Allen Solly/Jeans/5.jpeg'
-import j6 from '../../Assets/men/Allen Solly/Jeans/6.jpeg'
+// import j6 from '../../Assets/men/Allen Solly/Jeans/6.jpeg'
 
 import p1 from '../../Assets/men/Allen Solly/Pant/1.jpeg'
 import p2 from '../../Assets/men/Allen Solly/Pant/2.jpeg'
 import p3 from '../../Assets/men/Allen Solly/Pant/3.jpeg'
 import p4 from '../../Assets/men/Allen Solly/Pant/4.jpeg'
 import p5 from '../../Assets/men/Allen Solly/Pant/5.jpeg'
-import p6 from '../../Assets/men/Allen Solly/Pant/6.jpeg'
+// import p6 from '../../Assets/men/Allen Solly/Pant/6.jpeg'
 
 import l1 from '../../Assets/men/Adidas/Lower/1.jpeg'
 import l2 from '../../Assets/men/Adidas/Lower/2.jpeg'
 import l3 from '../../Assets/men/Adidas/Lower/3.jpeg'
 import l4 from '../../Assets/men/Adidas/Lower/4.jpeg'
 import l5 from '../../Assets/men/Adidas/Lower/5.jpeg'
-import l6 from '../../Assets/men/Adidas/Lower/6.jpeg'
+// import l6 from '../../Assets/men/Adidas/Lower/6.jpeg'
 
 import s1 from '../../Assets/men/Allen Solly/Shirt/1.jpeg'
 import s2 from '../../Assets/men/Allen Solly/Shirt/7.jpeg'
 import s3 from '../../Assets/men/Allen Solly/Shirt/8.jpeg'
 import s4 from '../../Assets/men/Allen Solly/Shirt/9.jpeg'
 import s5 from '../../Assets/men/Allen Solly/Shirt/10.jpeg'
-import s6 from '../../Assets/men/Allen Solly/Shirt/6.jpeg'
+// import s6 from '../../Assets/men/Allen Solly/Shirt/6.jpeg'
 
 import ts1 from '../../Assets/men/Adidas/T-shirt/1.jpeg'
 import ts2 from '../../Assets/men/Adidas/T-shirt/2.jpeg'
 import ts3 from '../../Assets/men/Adidas/T-shirt/3.jpeg'
 import ts4 from '../../Assets/men/Adidas/T-shirt/4.jpeg'
 import ts5 from '../../Assets/men/Adidas/T-shirt/5.jpeg'
-import ts6 from '../../Assets/men/Adidas/T-shirt/6.jpeg'
+// import ts6 from '../../Assets/men/Adidas/T-shirt/6.jpeg'
 
 let hoodie=[
     {
@@ -101,18 +101,18 @@ let hoodie=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        brand:"Adidas",
-        name:"Hoodie",
-        image:h6,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    }
+    // {
+    //     id:6,
+    //     brand:"Adidas",
+    //     name:"Hoodie",
+    //     image:h6,
+    //     new_price:"₹1379",
+    //     old_price:"₹2299",
+    //     offer:"40% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // }
 ]
 export {hoodie}
 
@@ -177,18 +177,18 @@ let jeans=[
         review:1256, 
         size:"30 , 32 , 34 , 36",
     },
-    {
-        id:6,
-        brand:"Adidas",
-        name:"Jeans",
-        image:j6,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    }
+    // {
+    //     id:6,
+    //     brand:"Adidas",
+    //     name:"Jeans",
+    //     image:j6,
+    //     new_price:"₹1379",
+    //     old_price:"₹2299",
+    //     offer:"40% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"30 , 32 , 34 , 36",
+    // }
 ]
 export {jeans}
 
@@ -253,18 +253,18 @@ let pant=[
         review:1256, 
         size:"30 , 32 , 34 , 36",
     },
-    {
-        id:6,
-        brand:"Adidas",
-        name:"Pant",
-        image:p6,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    }
+    // {
+    //     id:6,
+    //     brand:"Adidas",
+    //     name:"Pant",
+    //     image:p6,
+    //     new_price:"₹1379",
+    //     old_price:"₹2299",
+    //     offer:"40% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"30 , 32 , 34 , 36",
+    // }
 ]
 export {pant}
 
@@ -329,18 +329,18 @@ let lower=[
         review:1256,
         size:"30 , 32 , 34 , 36",
     },
-    {
-        id:6,
-        brand:"Adidas",
-        name:"Track Pants",
-        image:l6,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"30 , 32 , 34 , 36",
-    }
+    // {
+    //     id:6,
+    //     brand:"Adidas",
+    //     name:"Track Pants",
+    //     image:l6,
+    //     new_price:"₹1379",
+    //     old_price:"₹2299",
+    //     offer:"40% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"30 , 32 , 34 , 36",
+    // }
 ]
 export {lower}
 
@@ -405,18 +405,18 @@ let shirt=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        brand:"Adidas",
-        name:"Shirt",
-        image:s6,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    }
+    // {
+    //     id:6,
+    //     brand:"Adidas",
+    //     name:"Shirt",
+    //     image:s6,
+    //     new_price:"₹1379",
+    //     old_price:"₹2299",
+    //     offer:"40% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // }
 ]
 export {shirt}
 
@@ -481,17 +481,17 @@ let t_shirt=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:6,
-        brand:"Adidas",
-        name:"T-Shirt",
-        image:ts6,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    }
+    // {
+    //     id:6,
+    //     brand:"Adidas",
+    //     name:"T-Shirt",
+    //     image:ts6,
+    //     new_price:"₹1379",
+    //     old_price:"₹2299",
+    //     offer:"40% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // }
 ]
 export {t_shirt}

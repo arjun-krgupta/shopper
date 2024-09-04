@@ -44,10 +44,10 @@ function Men(props) {
             </div>
                 {/* Allen Solly */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {allen_solly.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -71,10 +71,10 @@ function Men(props) {
             </div>
                 {/* Mufti */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {mufti.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -98,10 +98,10 @@ function Men(props) {
             </div>
                 {/* Cobb */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {Cobb.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44" key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -125,10 +125,10 @@ function Men(props) {
             </div>
                 {/* Adidas */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {adidas.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 " key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -152,10 +152,10 @@ function Men(props) {
             </div>
                 {/* Peter England */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {peter_england.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 " key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -179,10 +179,10 @@ function Men(props) {
             </div>
                 {/* Nike */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {nike.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 " key={i}>
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>

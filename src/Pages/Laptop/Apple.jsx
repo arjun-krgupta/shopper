@@ -45,11 +45,11 @@ function Apple(props) {
        <div className='mt-3'>
             {
                 apple_laptop.map((val,ind)=>
-             <div className="flex justify-evenly bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
-            <div className="w-[18%] mt-4">
+             <div className="flex justify-center gap-5 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
+            <div className="w-[14%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
-            <div className="flex flex-col gap-1 w-[48%]">
+            <div className="flex flex-col gap-1 w-[41%]">
                 <h5 className='hover:text-blue-600 font-bold text-lg'>{val.name}</h5>
                 <div className="flex gap-1">
                     <button className='bg-green-600 text-white py-[1px] px-[2px] rounded'>{val.rating}</button>

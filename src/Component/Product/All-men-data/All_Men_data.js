@@ -6,7 +6,7 @@ import h5 from '../../Assets/men/Peter England/Hoodie/2.jpeg'
 import h6 from '../../Assets/men/Nike/Hoodie/1.jpg'
 
 import j1 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
-import j2 from '../../Assets/men/Mufti/Jeans/10.jpeg'
+import j2 from '../../Assets/men/Mufti/Jeans/2.jpeg'
 import j3 from '../../Assets/men/Cobb/Jeans/1.jpeg'
 import j4 from '../../Assets/men/Allen Solly/Jeans/1.jpeg'
 import j5 from '../../Assets/men/Peter England/Jeans/1.jpeg'

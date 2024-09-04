@@ -38,7 +38,7 @@ function Women(props) {
         <h1 className='text-4xl font-bold my-3 text-center md:text-5xl'>Shop by Categories</h1>
         
         <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/lehenga')}} >Lehenga</h4>
             <Link to='/lehenga' className=''>View all</Link>
             </div>
@@ -47,7 +47,7 @@ function Women(props) {
             <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
             {lehenga.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
                 <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>
@@ -65,7 +65,7 @@ function Women(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/gown')}} >Gown</h4>
             <Link to='/gown' className=''>View all</Link>
             </div>
@@ -74,7 +74,7 @@ function Women(props) {
             <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
             {gown.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
                 <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>
@@ -92,7 +92,7 @@ function Women(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/one-piece')}} >One Piece</h4>
             <Link to='/one-piece' className=''>View all</Link>
             </div>
@@ -101,7 +101,7 @@ function Women(props) {
             <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
             {one_piece.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -119,7 +119,7 @@ function Women(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/suit-salwar')}} >Salwar Suit</h4>
             <Link to='/suit-salwar' className=''>View all</Link>
             </div>
@@ -128,7 +128,7 @@ function Women(props) {
             <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
             {suit_salwar.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
                 <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>
@@ -146,7 +146,7 @@ function Women(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/suit')}} >Suit</h4>
             <Link to='/suit' className=''>View all</Link>
             </div>
@@ -155,7 +155,7 @@ function Women(props) {
             <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
             {suit.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
                 <div className="text-base font-semibold cursor-pointer">{val.name}</div>
@@ -173,7 +173,7 @@ function Women(props) {
           </div>
 
           <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-5">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/tshirt_women')}} >T-Shirt</h4>
             <Link to='/tshirt_women' className=''>View all</Link>
             </div>
@@ -182,7 +182,7 @@ function Women(props) {
             <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
             {tshirt_Women.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
-                <img src={val.image} alt="" className='max-w-full h-auto' />
+                <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
                 <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>

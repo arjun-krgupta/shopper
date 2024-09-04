@@ -32,6 +32,7 @@ import o2 from '../../Assets/Mobile/Oppo/Oppo A57.jpg'
 import o3 from '../../Assets/Mobile/Oppo/Oppo A77.jpg'
 import o4 from '../../Assets/Mobile/Oppo/Oppo A78.jpg'
 import o5 from '../../Assets/Mobile/Oppo/Oppo reno 11.jpg'
+import o6 from '../../Assets/Mobile/Oppo/oppo f21s.jpg'
 
 import a1 from '../../Assets/Mobile/Iphone/Apple iphone 12.jpg'
 import a2 from '../../Assets/Mobile/Iphone/apple iphone 11 pro max.jpg'
@@ -40,7 +41,7 @@ import a4 from '../../Assets/Mobile/Iphone/apple iphone 12 black.jpg'
 import a5 from '../../Assets/Mobile/Iphone/apple iphone 13 red.jpg'
 import a6 from '../../Assets/Mobile/Iphone/apple iphone 14 plus pink.jpg'
 
-let realme_product=[
+let realme=[
     {
         id:1,
         name:"Realme 11x Black",
@@ -109,9 +110,9 @@ let realme_product=[
     },
    
 ]
-export default realme_product;
+export default realme;
 
-let vivo_product=[
+let vivo=[
     {
         id:1,
         name:"Vivo T2 Pro",
@@ -179,10 +180,9 @@ let vivo_product=[
         offer:"20% off",
     },
 ]
+export {vivo}
 
-export {vivo_product}
-
-let samsung_product=[
+let samsung=[
     {
         id:1,
         name:"Samsung Galaxy",
@@ -251,9 +251,9 @@ let samsung_product=[
     },
 
 ]
-export {samsung_product}
+export {samsung}
 
-let poco_product=[
+let poco=[
     {
         id:1,
         name:"Poco C61 ",
@@ -321,9 +321,9 @@ let poco_product=[
         offer:"20% off",
     },
 ]
-export {poco_product}
+export {poco}
 
-let oppo_product=[
+let oppo=[
     {
         id:1,
         name:"Oppo A17k ",
@@ -381,19 +381,19 @@ let oppo_product=[
     },
     {
         id:6,
-        name:"Poco C50 ",
+        name:"Oppo F21s ",
         detail:"4GB,64 GB",
         rating:"4.4",
         review:1256,
-        image:p6,
+        image:o6,
         old_price:"₹15,000",
         new_price:"₹13,000",
         offer:"20% off",
     },
 ]
-export {oppo_product}
+export {oppo}
 
-let iphone_product=[
+let iphone=[
     {
         id:1,
         name:"Apple iphone 12 ",
@@ -461,4 +461,4 @@ let iphone_product=[
         offer:"20% off",
     },
 ]
-export {iphone_product}
+export {iphone}

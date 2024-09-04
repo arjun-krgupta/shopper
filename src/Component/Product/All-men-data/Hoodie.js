@@ -12,7 +12,7 @@ import h11 from '../../Assets/men/Allen Solly/Hoodie/11.jpeg'
 import h12 from '../../Assets/men/Allen Solly/Hoodie/12.jpeg'
 import h13 from '../../Assets/men/Peter England/Hoodie/1.jpeg'
 import h14 from '../../Assets/men/Peter England/Hoodie/2.jpeg'
-import h15 from '../../Assets/men/Peter England/Hoodie/3.jpeg'
+// import h15 from '../../Assets/men/Peter England/Hoodie/3.jpeg'
 import h16 from '../../Assets/men/Peter England/Hoodie/4.jpeg'
 import h17 from '../../Assets/men/Peter England/Hoodie/5.jpeg'
 import h18 from '../../Assets/men/Peter England/Hoodie/6.jpeg'
@@ -46,7 +46,7 @@ import h45 from '../../Assets/men/Mufti/Hoodie/2.jpg'
 import h46 from '../../Assets/men/Mufti/Hoodie/3.jpeg'
 import h47 from '../../Assets/men/Mufti/Hoodie/4.jpg'
 import h48 from '../../Assets/men/Mufti/Hoodie/5.jpg'
-import h49 from '../../Assets/men/Mufti/Hoodie/6.jpeg'
+// import h49 from '../../Assets/men/Mufti/Hoodie/6.jpeg'
 
 let hoodie_product=[
     {
@@ -217,18 +217,18 @@ let hoodie_product=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:15,
-        brand:"Peter England",
-        name:"Men Full Sleeve Solid Hooded Sweatshirt",
-        image:h15,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256,
-        size:"M , L , XL",
-    },
+    // {
+    //     id:15,
+    //     brand:"Peter England",
+    //     name:"Men Full Sleeve Solid Hooded Sweatshirt",
+    //     image:h15,
+    //     new_price:"₹1379",
+    //     old_price:"₹2299",
+    //     offer:"40% off",
+    //     rating:"4.3★",
+    //     review:1256,
+    //     size:"M , L , XL",
+    // },
     {
         id:16,
         brand:"Peter England",
@@ -618,18 +618,6 @@ let hoodie_product=[
         brand:"Mufti",
         name:"Men Full Sleeve Solid Hooded Sweatshirt",
         image:h48,
-        new_price:"₹1379",
-        old_price:"₹2299",
-        offer:"40% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
-    {
-        id:49,
-        brand:"Mufti",
-        name:"Men Full Sleeve Solid Hooded Sweatshirt",
-        image:h49,
         new_price:"₹1379",
         old_price:"₹2299",
         offer:"40% off",
