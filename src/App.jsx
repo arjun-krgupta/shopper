@@ -31,13 +31,14 @@ import Jeans from './Pages/Men/Jeans';
 import Lower from './Pages/Men/Lower';
 import Pant from './Pages/Men/Pant';
 import Shirt from './Pages/Men/Shirt';
-import TShirt from './Pages/Men/Tshirt';
 import Lehenga from './Pages/Women/Lehenga';
 import Gown from './Pages/Women/Gown';
 import One_Piece from './Pages/Women/One_Piece';
 import Salwar_suit from './Pages/Women/Salwar_suit';
 import Suit from './Pages/Women/Suit';
-import T_Shirt from './Pages/Women/T_Shirt';
+import Women from './Pages/Women'
+import Tshirt_Men from './Pages/Men/Tshirt_Men';
+import Tshirt_Women from './Pages/Women/Tshirt_Women';
 
 
 
@@ -79,13 +80,13 @@ function App(props) {
         <Route path='/lower' element={<Lower/>} />
         <Route path='/pant' element={<Pant/>} />
         <Route path='/shirt' element={<Shirt/>} />
-        <Route path='/t-shirt' element={<TShirt/>} />
+        <Route path='/tshirt_men' element={<Tshirt_Men/>} />
         <Route path='/lehenga' element={<Lehenga/>} />
         <Route path='/gown' element={<Gown/>} />
         <Route path='/one-piece' element={<One_Piece/>} />
         <Route path='/suit-salwar' element={<Salwar_suit/>} />
         <Route path='/suit' element={<Suit/>} />
-        <Route path='/tshirt' element={<T_Shirt/>} />
+        <Route path='/tshirt_women' element={<Tshirt_Women/>} />
      </Routes>
      </BrowserRouter>
      </>

@@ -1,11 +1,11 @@
 import React from 'react';
-import tshirt_product from '../../Component/Product/All-men-data/T-shirt';
+import tshirt_Men from '../../Component/Product/All-men-data/T-shirt';
 
-function TShirt(props) {
+function Tshirt_Men(props) {
     return (
         <>
         <div className="flex justify-center gap-5 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-1">
-            {tshirt_product.map((val,i)=>
+            {tshirt_Men.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">
@@ -25,4 +25,4 @@ function TShirt(props) {
     );
 }
 
-export default TShirt;
+export default Tshirt_Men;

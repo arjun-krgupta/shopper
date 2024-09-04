@@ -390,7 +390,7 @@ let suit=[
 ]
 export {suit}
 
-let tShirt_Women=[
+let tshirt_Women=[
     {
         id:1,
         name:"Women Solid Cotton Blend T-Shirt",
@@ -458,4 +458,4 @@ let tShirt_Women=[
         size:"M , L , XL",
     },
 ]
-export {tShirt_Women}
+export {tshirt_Women}

@@ -161,7 +161,7 @@ function Product(props) {
                   <div className='text-xs line-through text-gray-600 sm:text-sm md:text-base'>₹1700</div>
               </div>
             </div>
-            <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.04] hover:transition rounded sm:w-36 md:w-44" onClick={()=>{redirect('/t-shirt')}}>
+            <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.04] hover:transition rounded sm:w-36 md:w-44" onClick={()=>{redirect('/tshirt_women')}}>
               <img src={m2} alt=""  className='max-w-full h-auto' />
               <div  className='text-sm font-bold md:text-xl'>T-Shirt</div>
               <div className="flex gap-5">
@@ -250,7 +250,7 @@ function Product(props) {
                   <div className='text-xs line-through text-gray-600 sm:text-sm md:text-base'>₹1300</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.04] hover:transition rounded sm:w-36 md:w-44" onClick={()=>{redirect('/tshirt')}}>
+            <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.04] hover:transition rounded sm:w-36 md:w-44" onClick={()=>{redirect('/tshirt_women')}}>
               <img src={w6} alt="" className='max-w-full h-auto'/>
               <div className='text-sm font-bold md:text-xl'>T-Shirt</div>
               <div className="flex gap-5">

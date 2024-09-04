@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import lehenga, { gown, one_piece, suit, suit_salwar, tShirt_Women } from '../Component/Product/All-women-data/All_Women_data';
+import lehenga, { gown, one_piece, suit, suit_salwar, tshirt_Women} from '../Component/Product/All-women-data/All_Women_data';
 import lehenga_icon from '../Component/Assets/women/lehenga.jpeg'
 import gown_icon from '../Component/Assets/women/gown.jpeg'
 import onePiece_icon from '../Component/Assets/women/one-piece.jpeg'
@@ -175,13 +175,13 @@ function Women(props) {
 
           <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/tshirt')}} >T-Shirt</h4>
-            <Link to='/tshirt' className=''>View all</Link>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/tshirt_women')}} >T-Shirt</h4>
+            <Link to='/tshirt_women' className=''>View all</Link>
             </div>
                 {/* T-Shirt */}
             <hr className='w-full' />
             <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
-            {tShirt_Women.map((val,i)=>
+            {tshirt_Women.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
                <div className="flex flex-col items-center">

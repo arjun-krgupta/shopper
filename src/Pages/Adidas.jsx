@@ -148,8 +148,8 @@ function Adidas(props) {
 
           <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
-            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/t-shirt')}} >T-Shirt</h4>
-            <Link to='/t-shirt' className=''>View all</Link>
+            <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/tshirt_men')}} >T-Shirt</h4>
+            <Link to='/tshirt_men' className=''>View all</Link>
             </div>
                 {/* T-shirt */}
             <hr className='w-full' />
@@ -171,8 +171,8 @@ function Adidas(props) {
                 </div>
               </div>
             )}
-          </div>
-
+            </div>
+            
           <hr className='w-full mt-1' />
         <div className="flex justify-between items-center px-4">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/lower')}} >Track Pants</h4>

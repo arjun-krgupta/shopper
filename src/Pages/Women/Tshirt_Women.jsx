@@ -2,7 +2,7 @@ import React from 'react';
 import tshirt_Women from '../../Component/Product/All-women-data/T-shirt';
 
 
-function T_Shirt(props) {
+function Tshirt_Women(props) {
     return (
         <>
         <div className="flex justify-center gap-5 flex-wrap overflow-x-scroll webkit w-full mt-4 mb-1">
@@ -26,4 +26,4 @@ function T_Shirt(props) {
     );
 }
 
-export default T_Shirt;
+export default Tshirt_Women;

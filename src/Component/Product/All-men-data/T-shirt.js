@@ -59,7 +59,7 @@ import ts58 from '../../Assets/men/Nike/T-shirt/5.jpg'
 import ts59 from '../../Assets/men/Nike/T-shirt/6.jpg'
 import ts60 from '../../Assets/men/Nike/T-shirt/7.jpg'
 
-let tshirt_product=[
+let tshirt_Men=[
     {
         id:1,
         brand:"Allen Solly",
@@ -783,4 +783,4 @@ let tshirt_product=[
 
 ]
 
-export default tshirt_product
+export default tshirt_Men;
