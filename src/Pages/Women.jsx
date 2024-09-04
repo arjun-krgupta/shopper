@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import lehenga, { gown, one_piece, suit, suit_salwar, tshirt_Women} from '../Component/Product/All-women-data/All_Women_data';
-import lehenga_icon from '../Component/Assets/women/lehenga.jpeg'
-import gown_icon from '../Component/Assets/women/gown.jpeg'
-import onePiece_icon from '../Component/Assets/women/one-piece.jpeg'
-import suitSalwar_icon from '../Component/Assets/women/suit-salwar.jpeg'
-import suit_icon from '../Component/Assets/women/suit.jpeg'
-import tShirt_icon from '../Component/Assets/women/t-shirt.jpeg'
+import lehenga_icon from '../Component/Assets/women/icon/lehenga.jpeg'
+import gown_icon from '../Component/Assets/women/icon/gown.jpeg'
+import onePiece_icon from '../Component/Assets/women/icon/one-piece.jpeg'
+import suitSalwar_icon from '../Component/Assets/women/icon/suit-salwar.jpeg'
+import suit_icon from '../Component/Assets/women/icon/suit.jpeg'
+import tShirt_icon from '../Component/Assets/women/icon/t-shirt.jpeg'
 
 
 function Women(props) {
@@ -31,7 +31,7 @@ function Women(props) {
            <div className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/suit')}}>
            <img src={suit_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
            </div>
-            <div className="w-11 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/tshirt')}}>
+            <div className="w-11 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/tshirt_women')}}>
             <img src={tShirt_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
             </div>
         </div>
