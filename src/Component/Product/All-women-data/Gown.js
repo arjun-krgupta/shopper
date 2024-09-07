@@ -7,7 +7,7 @@ import g6 from '../../Assets/women/Gown/6.jpeg'
 import g7 from '../../Assets/women/Gown/7.jpeg'
 import g8 from '../../Assets/women/Gown/8.jpeg'
 import g9 from '../../Assets/women/Gown/9.jpeg'
-import g10 from '../../Assets/women/Gown/10.jpeg'
+// import g10 from '../../Assets/women/Gown/10.jpeg'
 import g11 from '../../Assets/women/Gown/11.jpeg'
 import g12 from '../../Assets/women/Gown/12.jpeg'
 import g13 from '../../Assets/women/Gown/13.jpeg'
@@ -128,17 +128,17 @@ let gown_product=[
         review:1256, 
         size:"M , L , XL",
     },
-    {
-        id:10,
-        name:"Printed Viscose Rayon Stitched Gown",
-        image:g10,
-        new_price:"₹1599",
-        old_price:"₹1999",
-        offer:"20% off",
-        rating:"4.3★",
-        review:1256, 
-        size:"M , L , XL",
-    },
+    // {
+    //     id:10,
+    //     name:"Printed Viscose Rayon Stitched Gown",
+    //     image:g10,
+    //     new_price:"₹1599",
+    //     old_price:"₹1999",
+    //     offer:"20% off",
+    //     rating:"4.3★",
+    //     review:1256, 
+    //     size:"M , L , XL",
+    // },
     {
         id:11,
         name:"Printed Viscose Rayon Stitched Gown",
