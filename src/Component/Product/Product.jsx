@@ -161,7 +161,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm md:text-base'>₹1000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center w-32 border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded sm:w-36 md:w-44" onClick={()=>{redirect('/tshirt_women')}}>
+            <div className="flex flex-col gap-2 items-center w-32 border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded sm:w-36 md:w-44" onClick={()=>{redirect('/tshirt_men')}}>
               <img src={m2} alt=""  className='max-w-full h-auto' />
               <div  className='text-sm font-bold md:text-xl'>T-Shirt</div>
               <div className="flex gap-4">

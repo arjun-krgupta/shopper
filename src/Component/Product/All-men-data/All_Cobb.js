@@ -420,7 +420,7 @@ let shirt=[
 ]
 export {shirt}
 
-let t_shirt=[
+let t_shirt_men=[
     {
         id:1,
         brand:"Cobb Italy",
@@ -494,4 +494,4 @@ let t_shirt=[
     //     size:"M , L , XL",
     // }
 ]
-export {t_shirt}
+export {t_shirt_men}

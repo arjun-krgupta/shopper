@@ -19,12 +19,6 @@ import Asus from './Pages/Laptop/Asus';
 import Apple from './Pages/Laptop/Apple';
 import Acer from './Pages/Laptop/Acer';
 import Men from './Pages/Men';
-import Allen_Solly from './Pages/Allen_Solly';
-import Mufti from './Pages/Mufti';
-import Cobb from './Pages/Cobb';
-import Adidas from './Pages/Adidas';
-import Peter_England from './Pages/Peter_England';
-import Nike from './Pages/Nike';
 import Hoodie from './Pages/Men/Hoodie';
 import Jeans from './Pages/Men/Jeans';
 import Lower from './Pages/Men/Lower';
@@ -65,12 +59,6 @@ function App(props) {
         <Route path='/asus' element={<Asus/>} />
         <Route path='/apple' element={<Apple/>} />
         <Route path='/acer' element={<Acer/>} />
-        <Route path='/allen_solly' element={<Allen_Solly/>} /> 
-        <Route path='/mufti' element={<Mufti/>} /> 
-        <Route path='/cobb' element={<Cobb/>} /> 
-        <Route path='/adidas' element={<Adidas/>} /> 
-        <Route path='/peter_england' element={<Peter_England/>} /> 
-        <Route path='/nike' element={<Nike/>} /> 
         <Route path='/hoodie' element={<Hoodie/>} />
         <Route path='/jeans' element={<Jeans/>} />
         <Route path='/lower' element={<Lower/>} />
