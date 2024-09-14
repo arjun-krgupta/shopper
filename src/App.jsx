@@ -18,7 +18,6 @@ import Lenovo from './Pages/Laptop/Lenovo';
 import Asus from './Pages/Laptop/Asus';
 import Apple from './Pages/Laptop/Apple';
 import Acer from './Pages/Laptop/Acer';
-import Slider from './Component/Slider';
 import Men from './Pages/Men';
 import Allen_Solly from './Pages/Allen_Solly';
 import Mufti from './Pages/Mufti';
@@ -39,8 +38,6 @@ import Suit from './Pages/Women/Suit';
 import Women from './Pages/Women'
 import Tshirt_Men from './Pages/Men/Tshirt_Men';
 import Tshirt_Women from './Pages/Women/Tshirt_Women';
-
-
 
 
 function App(props) {
@@ -68,7 +65,6 @@ function App(props) {
         <Route path='/asus' element={<Asus/>} />
         <Route path='/apple' element={<Apple/>} />
         <Route path='/acer' element={<Acer/>} />
-        <Route path='/slider' element={<Slider/>} />
         <Route path='/allen_solly' element={<Allen_Solly/>} /> 
         <Route path='/mufti' element={<Mufti/>} /> 
         <Route path='/cobb' element={<Cobb/>} /> 

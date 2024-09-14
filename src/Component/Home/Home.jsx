@@ -10,6 +10,7 @@ import slide3 from '../Assets/Slider/man banner.png'
 import slide4 from '../Assets/Slider/woman banner.png'
 
 import Product from "../Product/Product";
+// import Slider from "../Slider";
 
 function Home(props) {
  const redirect=useNavigate()
@@ -101,6 +102,7 @@ function Home(props) {
         </button>
       </div>
        <Product/>
+       {/* <Slider/> */}
        
     </>
   );

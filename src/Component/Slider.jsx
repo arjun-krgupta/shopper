@@ -1,23 +1,31 @@
+
 import React from 'react';
-// import realme from '../Component/Assets/Slider/realme_12-pro-5g-removebg-preview.png'
-function Slider(props) {
-    return (
-      <>
-   
-    <div className="flex justify-around items-center bg-[#646571] py-3 mt-3 h-[347px]">
-           <div className='flex flex-col items-center gap-6 w-[60%]'>
-           <h2 className='font-bold text-center text-4xl italic text-white'>Realme Smartphones</h2> 
-           <h1 className='text-4xl uppercase font-bold text-white'>realme 12 Pro 5G | 8GB | 128GB</h1>
-               <span className='text-center text-2xl text-white'>UPTO 15% OFF</span>
-               {/* <span className='text-center text-2xl text-white'>JUST 40,000</span> */}
-                <button className='bg-white text-yellow-600 p-3 uppercase font-bold'>shop Now</button>
-              </div>
-               <div className="w-[30%] mt-1">
-               <img src='' alt=""  className='max-w-full h-auto '/>
-               </div>
-           </div>
-          </>
-    );
-}
+import slider1 from '../Component/Assets/Slider/full-shot-pretty-woman-smiling-removebg-preview (1).png'
+
+const Slider = () => {
+  return (
+    <div className="max-w-screen-lg mx-auto my-3">
+        <div className="bg-yellow-400 flex items-center justify-around p-10">
+          <div>
+            <h2 className="text-white text-3xl font-bold mb-4 italic">Women Clothes</h2>
+            <p className="text-white text-4xl font-semibold ">
+              GOWN | LEHENGA | T-SHIRT | SUIT
+            </p>
+            <p className="text-white text-md mt-2">UPTO 10% OFF</p>
+            <button className="mt-4 bg-white text-yellow-400 font-bold py-2 px-4 rounded">
+              EXPLORE NOW
+            </button>
+          </div>
+          <div>
+            <img
+              src={slider1}
+              alt="Women Clothes Banner"
+              className="h-64"
+            />
+          </div>
+        </div>
+    </div>
+  );
+};
 
 export default Slider;
