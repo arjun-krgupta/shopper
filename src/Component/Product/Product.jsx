@@ -39,7 +39,7 @@ function Product(props) {
             <Link to="/mobile" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
           <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 lg:gap-4 py-2">
-              <div className="flex flex-col gap-1 items-center border border-gray-50 px-1 py-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded" onClick={()=>{redirect("/realme")}}>
+              <div className="flex flex-col gap-1 items-center border border-gray-50 px-1 py-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect("/realme")}}>
                 <img src={realme} alt="" className='max-w-full h-auto' />
                 <div className='text-sm font-semibold md:text-base lg:text-lg'>Realme </div>
                 <div className="flex gap-5 lg:gap-4">
@@ -47,7 +47,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹13,000</div>
                 </div>
               </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect("/vivo")}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44 " onClick={()=>{redirect("/vivo")}}>
               <img src={vivo} alt="" className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Vivo</div>
               <div className="flex gap-5 lg:gap-4">
@@ -55,7 +55,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹14,999</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/poco')}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/poco')}}>
               <img src={poco} alt="" className='max-w-full h-auto'  />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Poco</div>
               <div className="flex gap-5 lg:gap-4">
@@ -63,7 +63,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹14,000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect("/oppo")}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect("/oppo")}}>
               <img src={oppo} alt="" className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Oppo</div>
               <div className="flex gap-5 lg:gap-4">
@@ -71,7 +71,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹13,999</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/samsung')}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/samsung')}}>
               <img src={samsung} alt="" className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Samsung</div>
               <div className="flex gap-5 lg:gap-4">
@@ -79,7 +79,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹25,000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded  " onClick={()=>{redirect("/iphone")}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded  lg:w-44" onClick={()=>{redirect("/iphone")}}>
               <img src={iphone} alt="" className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Iphone</div>
               <div className="flex gap-5 lg:gap-4">
@@ -95,8 +95,8 @@ function Product(props) {
             <h3 className='font-bold text-base cursor-pointer md:text-xl hover:underline' onClick={()=>{redirect('/laptop')}}>Laptops</h3>
             <Link to="/laptop"  className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
-          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-4 py-2 px-3">
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/hp')}}>
+          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-2 px-3">
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/hp')}}>
               <img src={l1} alt="" className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Hp</div>
               <div className="flex gap-5 lg:gap-4">
@@ -104,7 +104,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹40,000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded "  onClick={()=>{redirect('/dell')}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44"  onClick={()=>{redirect('/dell')}}>
               <img src={l2} alt=""  className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Dell</div>
               <div className="flex gap-5 lg:gap-4">
@@ -112,7 +112,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹45,000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded "  onClick={()=>{redirect("/lenovo")}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44"  onClick={()=>{redirect("/lenovo")}}>
               <img src={l3} alt=""  className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Lenovo </div>
               <div className="flex gap-5 lg:gap-4">
@@ -120,7 +120,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹30,000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded "  onClick={()=>{redirect('/asus')}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44"  onClick={()=>{redirect('/asus')}}>
               <img src={l4} alt=""  className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Asus</div>
               <div className="flex gap-5 lg:gap-4">
@@ -128,7 +128,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹40,000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-[10px] items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded "  onClick={()=>{redirect('/apple')}}>
+            <div className="flex flex-col gap-[10px] items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44"  onClick={()=>{redirect('/apple')}}>
               <img src={l5} alt=""  className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Apple</div>
               <div className="flex gap-5 lg:gap-4">
@@ -136,7 +136,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹60,000</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded "  onClick={()=>{redirect('/acer')}}>
+            <div className="flex flex-col gap-2 items-center  border border-gray-50 py-2 px-2 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44"  onClick={()=>{redirect('/acer')}}>
               <img src={l6} alt=""  className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Acer</div>
               <div className="flex gap-5 lg:gap-4">
@@ -153,7 +153,7 @@ function Product(props) {
             <Link to="/men" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
           <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 lg:gap-4 py-2 px-3" >
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/hoodie')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/hoodie')}}>
               <img src={m1} alt=""  className='max-w-full h-auto' />
             <div  className='text-sm font-semibold md:text-base lg:text-lg'>Hoodie</div>
             <div className="flex gap-5 lg:gap-4">
@@ -161,7 +161,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹1000</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/tshirt_men')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/tshirt_men')}}>
               <img src={m2} alt=""  className='max-w-full h-auto' />
               <div  className='text-sm font-semibold md:text-base lg:text-lg'>T-Shirt</div>
               <div className="flex gap-5 lg:gap-4">
@@ -169,7 +169,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹900</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/jeans')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/jeans')}}>
               <img src={m3} alt=""  className='max-w-full h-auto' />
               <div  className='text-sm font-semibold md:text-base lg:text-lg'>Jeans </div>
               <div className="flex gap-5 lg:gap-4">
@@ -177,7 +177,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹1200</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/lower')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/lower')}}>
               <img src={m4} alt=""  className='max-w-full h-auto' />
               <div  className='text-sm font-semibold md:text-base lg:text-lg'>Track Pants</div>
               <div className="flex gap-5 lg:gap-4">
@@ -185,7 +185,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹500</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/pant')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/pant')}}>
               <img src={m5} alt="" className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Pant</div>
               <div className="flex gap-5 lg:gap-4">
@@ -193,7 +193,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹1100</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/shirt')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/shirt')}}>
               <img src={m6} alt=""  className='max-w-full h-auto' />
               <div  className='text-sm font-semibold md:text-base lg:text-lg'>Shirt</div>
               <div className="flex gap-5 lg:gap-4">
@@ -210,7 +210,7 @@ function Product(props) {
             <Link to="/women" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
           <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 lg:gap-4 py-2 px-3">
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/lehenga')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/lehenga')}}>
               <img src={w1} alt="" className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Lehenga</div>
               <div className="flex gap-5 lg:gap-4">
@@ -218,7 +218,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹12,000</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/suit-salwar')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/suit-salwar')}}>
               <img src={w2} alt="" className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Suit-Salwar</div>
               <div className="flex gap-5 lg:gap-4">
@@ -226,7 +226,7 @@ function Product(props) {
                   <div className='text-xs sm:text-sm lg:text-base'>₹1500</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/one-piece')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/one-piece')}}>
               <img src={w3} alt="" className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>One-piece </div>
               <div className="flex gap-5 lg:gap-4">
@@ -234,7 +234,7 @@ function Product(props) {
               <div className='text-xs sm:text-sm lg:text-base'>₹2000</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/suit')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/suit')}}>
               <img src={w4} alt="" className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Suit</div>
               <div className="flex gap-5 lg:gap-4">
@@ -242,7 +242,7 @@ function Product(props) {
               <div className='text-xs sm:text-sm lg:text-base'>₹1500</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/gown')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/gown')}}>
               <img src={w5} alt="" className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Gown</div>
               <div className="flex gap-5 lg:gap-4">
@@ -250,7 +250,7 @@ function Product(props) {
               <div className='text-xs sm:text-sm lg:text-base'>₹1000</div>
                 </div>
             </div>
-            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/tshirt_women')}}>
+            <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded lg:w-44" onClick={()=>{redirect('/tshirt_women')}}>
               <img src={w6} alt="" className='max-w-full h-auto'/>
               <div className='text-sm font-semibold md:text-base lg:text-lg'>T-Shirt</div>
               <div className="flex gap-5 lg:gap-4">
