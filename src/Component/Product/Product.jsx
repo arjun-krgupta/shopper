@@ -38,7 +38,7 @@ function Product(props) {
             <h3 className='font-bold text-base md:text-xl cursor-pointer hover:underline' onClick={()=>{redirect('/mobile')}}>Mobile Category</h3>
             <Link to="/mobile" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
-          <div className="flex justify-center overflow-x-scroll webkit w-full gap-4 py-2 px-3">
+          <div className="flex justify-center overflow-x-scroll webkit w-full gap-2 py-2">
               <div className="flex flex-col gap-2 items-center w-32 border border-gray-50 py-1 px-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded sm:w-36 md:w-44" onClick={()=>{redirect("/realme")}}>
                 <img src={realme} alt="" className='max-w-full h-auto' />
                 <div className='text-sm font-bold md:text-xl'>Realme </div>
