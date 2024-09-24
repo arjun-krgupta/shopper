@@ -38,7 +38,7 @@ function Product(props) {
             <h3 className='font-bold text-base md:text-xl cursor-pointer hover:underline' onClick={()=>{redirect('/mobile')}}>Mobile Category</h3>
             <Link to="/mobile" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
-          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-2 py-2">
+          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 lg:gap-4 py-2">
               <div className="flex flex-col gap-1 items-center border border-gray-50 px-1 py-1 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded" onClick={()=>{redirect("/realme")}}>
                 <img src={realme} alt="" className='max-w-full h-auto' />
                 <div className='text-sm font-semibold md:text-base lg:text-lg'>Realme </div>
@@ -152,7 +152,7 @@ function Product(props) {
             <h3 className='font-bold text-base cursor-pointer md:text-xl hover:underline' onClick={()=>{redirect('/men')}}>Men Collection</h3>
             <Link to="/men" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
-          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-2 lg:gap-4 py-2 px-3" >
+          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 lg:gap-4 py-2 px-3" >
             <div className="flex flex-col p-1 gap-1 items-center  border border-gray-100 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/hoodie')}}>
               <img src={m1} alt=""  className='max-w-full h-auto' />
             <div  className='text-sm font-semibold md:text-base lg:text-lg'>Hoodie</div>
@@ -209,7 +209,7 @@ function Product(props) {
             <h3 className='font-bold text-base cursor-pointer hover:underline md:text-xl' onClick={()=>{redirect('/women')}}>Women Collection</h3>
             <Link to="/women" className='text-green-600 hover:underline hover:text-green-600 text-sm md:text-base'>View all</Link>
           </div>
-          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-4 py-2 px-3">
+          <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 lg:gap-4 py-2 px-3">
             <div className="flex flex-col p-1 gap-1 items-center  border border-gray-50 cursor-pointer hover:scale-[1.01] hover:transition[0.3s] rounded " onClick={()=>{redirect('/lehenga')}}>
               <img src={w1} alt="" className='max-w-full h-auto' />
               <div className='text-sm font-semibold md:text-base lg:text-lg'>Lehenga</div>
