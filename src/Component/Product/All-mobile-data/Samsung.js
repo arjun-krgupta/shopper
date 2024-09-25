@@ -18,7 +18,7 @@ let Samsung_product=[
     {
         id:1,
         image:s1,
-        name:"SAMSUNG Galaxy A35 5G (Awesome Lilac, 256 GB)",
+        name:"SAMSUNG Galaxy A35 5G (Awesome Lilac)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -35,7 +35,7 @@ let Samsung_product=[
     {
         id:2,
         image:s2,
-        name:"SAMSUNG Galaxy A55 5G (Awesome Navy, 256 GB)",
+        name:"SAMSUNG Galaxy A55 5G (Awesome Navy)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -52,7 +52,7 @@ let Samsung_product=[
     {
         id:3,
         image:s3,
-        name:"SAMSUNG Galaxy F15 5G (Ash Black, 128 GB)",
+        name:"SAMSUNG Galaxy F15 5G (Ash Black)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -69,7 +69,7 @@ let Samsung_product=[
     {
         id:4,
         image:s4,
-        name:"SAMSUNG Galaxy M14 5G (Icy Silver, 128 GB)",
+        name:"SAMSUNG Galaxy M14 5G (Icy Silver)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -86,7 +86,7 @@ let Samsung_product=[
     {
         id:5,
         image:s5,
-        name:"SAMSUNG galaxy M15 5G (Stone Grey, 128 GB)",
+        name:"SAMSUNG galaxy M15 5G (Stone Grey)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -103,7 +103,7 @@ let Samsung_product=[
     {
         id:6,
         image:s6,
-        name:"SAMSUNG Galaxy M34 5G (Prism Silver, 128 GB)",
+        name:"SAMSUNG Galaxy M34 5G (Prism Silver)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -120,7 +120,7 @@ let Samsung_product=[
     {
         id:7,
         image:s7,
-        name:"SAMSUNG Galaxy A15 5G (Light Blue, 128 GB)",
+        name:"SAMSUNG Galaxy A15 5G (Light Blue)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -137,7 +137,7 @@ let Samsung_product=[
     {
         id:8,
         image:s8,
-        name:"SAMSUNG Galaxy F14 5G (GOAT Green, 128 GB)",
+        name:"SAMSUNG Galaxy F14 5G (GOAT Green)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -154,7 +154,7 @@ let Samsung_product=[
     {
         id:9,
         image:s9,
-        name:"SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)",
+        name:"SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -171,7 +171,7 @@ let Samsung_product=[
     {
         id:10,
         image:s10,
-        name:"SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)",
+        name:"SAMSUNG Galaxy S24+ 5G (Cobalt Violet)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -188,7 +188,7 @@ let Samsung_product=[
     {
         id:11,
         image:s11,
-        name:"SAMSUNG Galaxy A25 5G (Blue Black, 128 GB)",
+        name:"SAMSUNG Galaxy A25 5G (Blue Black)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -222,7 +222,7 @@ let Samsung_product=[
     {
         id:13,
         image:s13,
-        name:"SAMSUNG Galaxy A05s (Light Green, 128 GB)",
+        name:"SAMSUNG Galaxy A05s (Light Green)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -239,7 +239,7 @@ let Samsung_product=[
     {
         id:14,
         image:s14,
-        name:"SAMSUNG Galaxy A05 (Silver, 128 GB)",
+        name:"SAMSUNG Galaxy A05 (Silver)",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
@@ -256,7 +256,7 @@ let Samsung_product=[
     {
         id:15,
         image:s15,
-        name:"Samsung Galaxy S21 FE 5G (Graphite, 128 GB) ",
+        name:"Samsung Galaxy S21 FE 5G (Graphite) ",
         rating:"4.3★",
         review:"10,581 Ratings & 1,659 Reviews",
         description:{
