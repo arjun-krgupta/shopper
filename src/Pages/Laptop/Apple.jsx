@@ -18,22 +18,22 @@ function Apple(props) {
        <>
           {/* laptop Brands */}
           <div className='flex justify-center items-center gap-2 w-full mt-3'>
-            <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/hp')}}>
+            <div className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/hp')}}>
             <img src={hp} alt="" className="max-w-full h-auto " />
             </div>
-            <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/asus')}}>
+            <div className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/asus')}}>
             <img src={asus} alt="" className="max-w-full h-auto" />
             </div>
-            <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition " onClick={()=>{redirect('/dell')}}>
+            <div className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition " onClick={()=>{redirect('/dell')}}>
             <img src={dell} alt="" className="max-w-full h-auto" />
             </div>
-            <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/lenovo')}}>
+            <div className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/lenovo')}}>
             <img src={lenovo} alt="" className="max-w-full h-auto" />
             </div>
-           <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/apple')}}>
+           <div className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/apple')}}>
            <img src={apple} alt="" className="max-w-full h-auto" />
            </div>
-            <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/acer')}}>
+            <div className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/acer')}}>
             <img src={acer} alt="" className="max-w-full h-auto" />
             </div>
         </div>
@@ -45,11 +45,11 @@ function Apple(props) {
        <div className='mt-3'>
             {
                 apple_laptop.map((val,ind)=>
-             <div className="flex justify-center gap-5 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
+             <div className="flex justify-evenly lg:justify-center lg:gap-5 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
             <div className="w-[14%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
-            <div className="flex flex-col gap-1 w-[41%]">
+            <div className="flex flex-col gap-1 lg:w-[41%]">
                 <h5 className='hover:text-blue-600 font-bold text-lg'>{val.name}</h5>
                 <div className="flex gap-1">
                     <button className='bg-green-600 text-white py-[1px] px-[2px] rounded'>{val.rating}</button>
