@@ -15,22 +15,22 @@ function Realme(props) {
     return (
         <>
            <div className='flex justify-center items-center gap-2 w-full mt-2'>
-            <div className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/realme')}}>
+            <div className="w-16 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/realme')}}>
             <img src={m1} alt="" className="max-w-full h-auto rounded-full" />
             </div>
-            <div className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/iphone')}}>
+            <div className="w-16 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/iphone')}}>
             <img src={m2} alt="" className="max-w-full h-auto rounded-full" />
             </div>
-            <div className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7 " onClick={()=>{redirect('/oppo')}}>
+            <div className="w-16 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7 " onClick={()=>{redirect('/oppo')}}>
             <img src={m3} alt="" className="max-w-full h-auto rounded-full" />
             </div>
-            <div className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/poco')}}>
+            <div className="w-16 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/poco')}}>
             <img src={m4} alt="" className="max-w-full h-auto rounded-full" />
             </div>
-           <div className="w-11 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/samsung')}}>
+           <div className="w-16 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/samsung')}}>
            <img src={m5} alt="" className="max-w-full h-auto rounded-full" />
            </div>
-            <div className="w-11 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/vivo')}}>
+            <div className="w-16 sm:w-20 md:w-24 cursor-pointer" onClick={()=>{redirect('/vivo')}}>
             <img src={m6} alt="" className="max-w-full h-auto rounded-full" />
             </div>
         </div>
