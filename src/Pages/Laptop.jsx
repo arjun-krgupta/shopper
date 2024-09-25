@@ -17,7 +17,7 @@ function Laptop(props) {
         <>
             {/* laptop Brands */}
         <div className='flex justify-center items-center gap-2 w-full mt-3'>
-            <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/hp')}}>
+            <div className="w-14 sm:w-24 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/hp')}}>
             <img src={hp} alt="" className="max-w-full h-auto " />
             </div>
             <div className="w-12 sm:w-20 md:w-28 lg:w-32 cursor-pointer sm:me-2 lg:me-7 sm:hover:scale-[1.05] sm:hover:transition" onClick={()=>{redirect('/asus')}}>
