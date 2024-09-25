@@ -49,7 +49,7 @@ function Acer(props) {
             <div className="w-[20%] lg:w-[24%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
-            <div className="flex flex-col gap-1 w-[60%] lg:w-[41%]">
+            <div className="flex flex-col gap-1 w-[58%] lg:w-[41%]">
                 <h5 className='hover:text-blue-600 font-bold text-lg'>{val.name}</h5>
                 <div className="flex gap-1">
                     <button className='bg-green-600 text-white py-[1px] px-[2px] rounded'>{val.rating}</button>
