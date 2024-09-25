@@ -45,8 +45,8 @@ function Acer(props) {
        <div className='mt-3'>
             {
                 acer_laptop.map((val,ind)=>
-             <div className="flex justify-center gap-5 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
-            <div className="w-[14%] mt-2">
+             <div className="flex justify-evenly lg:justify-center lg:gap-5 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
+            <div className="w-[16%] lg:w-[20%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
             <div className="flex flex-col gap-1 w-[41%]">
