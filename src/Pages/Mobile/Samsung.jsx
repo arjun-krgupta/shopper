@@ -42,7 +42,7 @@ function Samsung(props) {
         <div className='mt-2'>
             {
                 Samsung_product.map((val,ind)=>
-             <div className="flex justify-evenly bg-white gap-2 p-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
+             <div className="flex justify-evenly bg-white p-3 pb-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
             <div className="w-[16%] md:w-[20%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
@@ -52,7 +52,7 @@ function Samsung(props) {
                     <button className='bg-green-600 text-white py-[1px] px-[2px] rounded'>{val.rating}</button>
                     <div>{val.review}</div>
                 </div>
-                <ul>
+                <ul className='list-disc ms-3'>
                     <li>{val.description.d1}</li>
                     <li>{val.description.d2}</li>
                     <li>{val.description.d3}</li>

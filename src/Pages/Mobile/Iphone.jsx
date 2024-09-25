@@ -52,7 +52,7 @@ function Iphone(props) {
                     <button className='bg-green-600 text-white py-[1px] px-[2px] rounded'>{val.rating}</button>
                     <div>{val.review}</div>
                 </div>
-                <ul>
+                <ul className='list-disc ms-3'>
                     <li>{val.description.d1}</li>
                     <li>{val.description.d2}</li>
                     <li>{val.description.d3}</li>
