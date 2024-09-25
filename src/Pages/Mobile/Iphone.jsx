@@ -42,7 +42,7 @@ function Iphone(props) {
         <div className='mt-2'>
             {
                 Iphone_product.map((val,ind)=>
-             <div className="flex justify-between gap-2 bg-white pb-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
+             <div className="flex justify-around bg-white pb-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
             <div className="w-[14%] md:w-[20%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
