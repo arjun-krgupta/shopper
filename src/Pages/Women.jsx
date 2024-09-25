@@ -50,7 +50,7 @@ function Women(props) {
             </div>
                 {/* Lehenga*/}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {lehenga.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
@@ -77,7 +77,7 @@ function Women(props) {
             </div>
                 {/* Gown */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {gown.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
@@ -104,7 +104,7 @@ function Women(props) {
             </div>
                 {/* One Piece */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {one_piece.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
@@ -131,7 +131,7 @@ function Women(props) {
             </div>
                 {/* Salwar Suit */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {suit_salwar.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
@@ -158,7 +158,7 @@ function Women(props) {
             </div>
                 {/* Suit */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {suit.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
@@ -185,7 +185,7 @@ function Women(props) {
             </div>
                 {/* T-Shirt */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {tshirt_Women.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
