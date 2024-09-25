@@ -45,7 +45,7 @@ function Apple(props) {
        <div className='mt-3'>
             {
                 apple_laptop.map((val,ind)=>
-             <div className="flex justify-center lg:gap-5 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
+             <div className="flex justify-center gap-3 lg:gap-5 bg-white pt-2 pb-3 mb-3 w-full cursor-pointer border-bottom" key={ind}>
             <div className="w-[20%] lg:w-[24%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
