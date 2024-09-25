@@ -43,7 +43,7 @@ function Realme(props) {
             {
                 realme_product.map((val,ind)=>
              <div className="flex justify-evenly bg-white p-3 pb-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
-            <div className="w-[20%] md:w-[24%] mt-2">
+            <div className="w-[16%] md:w-[20%] mt-2">
                 <img src={val.image} alt="" className='max-w-full h-auto' />
             </div>
             <div className="flex flex-col gap-1">
