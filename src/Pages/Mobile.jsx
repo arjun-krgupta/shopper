@@ -128,7 +128,7 @@ function Mobile(props) {
             </div>
                 {/* Realme */}
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
             {realme.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-44 px-2 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
@@ -154,7 +154,7 @@ function Mobile(props) {
             <Link to='/vivo'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
             {vivo.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
@@ -180,7 +180,7 @@ function Mobile(props) {
             <Link to='/samsung'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
             {samsung.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
@@ -206,7 +206,7 @@ function Mobile(props) {
             <Link to='/poco'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
             {poco.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
@@ -232,7 +232,7 @@ function Mobile(props) {
             <Link to='/oppo'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
             {oppo.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
@@ -258,7 +258,7 @@ function Mobile(props) {
             <Link to='/iphone'>View all</Link>
             </div>
             <hr className='w-full' />
-            <div className="flex justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
+            <div className="flex lg:justify-center gap-4 overflow-x-scroll webkit w-full my-[10px] px-3">
             {iphone.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-44 px-2" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto' />
