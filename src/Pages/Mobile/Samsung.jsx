@@ -34,7 +34,7 @@ function Samsung(props) {
             <img src={m6} alt="" className="max-w-full h-auto rounded-full" />
             </div>
         </div>
-         <div className='w-100 h-auto'>
+         <div className='w-full h-auto'>
             <h1 className='font-bold text-4xl mt-3 mb-1 text-center'>Samsung Phones</h1>
               <img src={sl1} alt="" className='max-w-100 h-auto'/>
               <img src={sl2} alt="" className='max-w-100 h-auto'/>
@@ -42,8 +42,8 @@ function Samsung(props) {
         <div className='mt-2'>
             {
                 Samsung_product.map((val,ind)=>
-             <div className="flex justify-around bg-white p-3 pb-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
-            <div className="w-[16%] md:w-[20%] mt-2">
+             <div className="flex justify-center sm:gap-6 md:gap-10 lg:gap-14 bg-white p-3 pb-3 border-bottom mb-2 w-full cursor-pointer" key={ind}>
+            <div className="sm:w-[21%] md:w-[18%] lg:w-[11%]">
                 <img src={val.image} alt="" className='max-w-full h-auto'/>
             </div>
             <div className="flex flex-col gap-1">
