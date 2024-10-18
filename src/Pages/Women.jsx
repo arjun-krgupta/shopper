@@ -14,30 +14,30 @@ function Women(props) {
     return (
         <>
         {/* Women Clothes icon */}
-        <div className='flex justify-center items-center gap-2 lg:gap-5 w-full mt-2'>
-            <div className="w-16 hover:text-pink-700 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/lehenga')}}>
+        <div className='flex justify-center items-center gap-2 sm:gap-4 w-full mt-2'>
+            <div className="w-11 hover:text-pink-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/lehenga')}}>
             <img src={lehenga_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs lg:text-sm text-center font-semibold">Lehenga</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">Lehenga</p>
             </div>
-            <div className="w-16 hover:text-pink-700 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/gown')}}>
+            <div className="w-11 hover:text-pink-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/gown')}}>
             <img src={gown_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs lg:text-sm text-center font-semibold">Gown</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">Gown</p>
             </div>
-            <div className="w-16 hover:text-pink-700 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7 " onClick={()=>{redirect('/one-piece')}}>
+            <div className="w-11 hover:text-pink-700 sm:w-16 md:w-20 cursor-pointer " onClick={()=>{redirect('/one-piece')}}>
             <img src={onePiece_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs lg:text-sm text-center font-semibold">One-Piece</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">one-pis</p>
             </div>
-            <div className="w-16 hover:text-pink-700 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/suit-salwar')}}>
+            <div className="w-11 hover:text-pink-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/suit-salwar')}}>
             <img src={suitSalwar_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs lg:text-sm text-center font-semibold">Salwar-Suit</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">Salwar</p>
             </div>
-           <div className="w-16 hover:text-pink-700 sm:w-20 md:w-24 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/suit')}}>
+           <div className="w-11 hover:text-pink-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/suit')}}>
            <img src={suit_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-           <p className="text-xs lg:text-sm text-center font-semibold">Suit</p>
+           <p className="text-xs sm:text-sm text-center font-semibold">Suit</p>
            </div>
-            <div className="w-16 hover:text-pink-700 sm:w-20 md:w-24 cursor-pointer" onClick={()=>{redirect('/tshirt_women')}}>
+            <div className="w-11 hover:text-pink-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/tshirt_women')}}>
             <img src={tShirt_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-xs lg:text-sm text-center font-semibold">T-shirt</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">T-shirt</p>
             </div>
         </div>
 
@@ -50,18 +50,18 @@ function Women(props) {
             </div>
                 {/* Lehenga*/}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {lehenga.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
-                <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>
+                <div className="text-sm font-semibold cursor-pointer text-center">{val.name}</div>
                </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                     <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
                     <div className="text-xs">({val.review})</div>
-                </div>
+                </div> */}
                 <div className="flex gap-3">
                     <div className="text-sm">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
@@ -77,18 +77,18 @@ function Women(props) {
             </div>
                 {/* Gown */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {gown.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
-                <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>
+                <div className="text-sm font-semibold cursor-pointer text-center">{val.name}</div>
                </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                     <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
                     <div className="text-xs">({val.review})</div>
-                </div>
+                </div> */}
                 <div className="flex gap-3">
                     <div className="text-sm">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
@@ -104,18 +104,18 @@ function Women(props) {
             </div>
                 {/* One Piece */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {one_piece.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
-                <div className="text-base font-semibold cursor-pointer">{val.name}</div>
+                <div className="text-sm font-semibold cursor-pointer">{val.name}</div>
                </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                     <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
                     <div className="text-xs">({val.review})</div>
-                </div>
+                </div> */}
                 <div className="flex gap-3">
                     <div className="text-sm">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
@@ -131,18 +131,18 @@ function Women(props) {
             </div>
                 {/* Salwar Suit */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {suit_salwar.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
-                <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>
+                <div className="text-sm font-semibold cursor-pointer text-center">{val.name}</div>
                </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                     <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
                     <div className="text-xs">({val.review})</div>
-                </div>
+                </div> */}
                 <div className="flex gap-3">
                     <div className="text-sm">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
@@ -158,18 +158,18 @@ function Women(props) {
             </div>
                 {/* Suit */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {suit.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
-                <div className="text-base font-semibold cursor-pointer">{val.name}</div>
+                <div className="text-sm font-semibold cursor-pointer">{val.name}</div>
                </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                     <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
                     <div className="text-xs">({val.review})</div>
-                </div>
+                </div> */}
                 <div className="flex gap-3">
                     <div className="text-sm">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>
@@ -185,18 +185,18 @@ function Women(props) {
             </div>
                 {/* T-Shirt */}
             <hr className='w-full' />
-            <div className="flex lg:justify-center gap-4 px-3 overflow-x-scroll webkit w-full my-[10px]">
+            <div className="flex lg:justify-center gap-3 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {tshirt_Women.map((val,i)=>
               <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 {/* <div className="text-sm text-gray-400">{val.brand}</div> */}
-                <div className="text-base font-semibold cursor-pointer text-center">{val.name}</div>
+                <div className="text-sm font-semibold cursor-pointer text-center">{val.name}</div>
                </div>
-                <div className="flex gap-2">
+                {/* <div className="flex gap-2">
                     <div className="text-sm px-1 bg-green-700 text-white">{val.rating}</div>
                     <div className="text-xs">({val.review})</div>
-                </div>
+                </div> */}
                 <div className="flex gap-3">
                     <div className="text-sm">{val.new_price}</div>
                     <div className="text-sm line-through text-gray-600">{val.old_price}</div>

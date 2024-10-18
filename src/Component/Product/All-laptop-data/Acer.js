@@ -11,7 +11,7 @@ let acer_laptop=[
             id: 1,
             name:'Acer One (2024) Intel Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) AO 14 Z 8-415 Thin and Light Laptop  (14 Inch, Silver, 1.49 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Celeron Dual Core Processor",
                 d2:"8 GB LPDDR4X RAM",
@@ -29,7 +29,7 @@ let acer_laptop=[
             id: 2,
             name:'Acer Swift Go 14 EVO OLED Intel Core i5 13th Gen 13500H - (16 GB/512 GB SSD/Windows 11 Home) SFG14-71-58UB Thin and Light Laptop  (14 Inch, Pure Silver, 1.25 Kg, With MS Office)',
             rating:"4.3★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Celeron Dual Core Processor",
                 d2:"4 GB DDR4 RAM",
@@ -47,7 +47,7 @@ let acer_laptop=[
             id: 3,
             name:'Acer One 14 AMD Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 11 Home) Z2-493 Thin and Light Laptop  (14 inch, Silver, 1.5 Kg) ',
             rating:"4.0★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 5 Hexa Core Processor",
                 d2:"16 GB DDR4 RAM",
@@ -65,7 +65,7 @@ let acer_laptop=[
             id: 4,
             name:'Acer Chromebook (2024) Intel Celeron Dual Core N4500 - (8 GB/64 GB EMMC Storage/Chrome OS) CB314-3H-COBZ Chromebook  (14 inch, Silver, 1.45 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 7 Octa Core Processor",
                 d2:"16 GB DDR4 RAM",
@@ -83,7 +83,7 @@ let acer_laptop=[
             id: 5,
             name:'Acer Aspire 3 Backlit Intel Core i5 12th Gen 1235U - (16 GB/512 GB SSD/Windows 11 Home) A324-51 Thin and Light Laptop  (14 Inch, Steel Gray, 1.45 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i3 Processor",
                 d2:"8 GB DDR45 RAM",
@@ -101,7 +101,7 @@ let acer_laptop=[
             id: 6,
             name:'Acer Aspire 7 (2024) Intel Core i5 12th Gen 12450H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050) A715-76G-59WG Gaming Laptop  (15.6 Inch, Charcoal Black, 2.1 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 3 Quad Core Processor",
                 d2:"8 GB LPDDR4X RAM",

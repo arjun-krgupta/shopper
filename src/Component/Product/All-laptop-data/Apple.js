@@ -11,7 +11,7 @@ let apple_laptop=[
             id: 1,
             name:'Apple 2022 MacBook AIR Apple M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY33HN/A  (13.6 Inch, Midnight, 1.24 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Celeron Dual Core Processor",
                 d2:"8 GB LPDDR4X RAM",
@@ -29,7 +29,7 @@ let apple_laptop=[
             id: 2,
             name:'Apple 2020 Macbook Air Apple M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A  (13.3 inch, Space Grey, 1.29 kg)',
             rating:"4.3★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Celeron Dual Core Processor",
                 d2:"4 GB DDR4 RAM",
@@ -47,7 +47,7 @@ let apple_laptop=[
             id: 3,
             name:'Apple 2022 MacBook AIR Apple M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY23HN/A  (13.6 Inch, Starlight, 1.24 kg) ',
             rating:"4.0★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 5 Hexa Core Processor",
                 d2:"16 GB DDR4 RAM",
@@ -65,7 +65,7 @@ let apple_laptop=[
             id: 4,
             name:'Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRYR3HN/A  (15 Inch, Starlight, 1.51 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 7 Octa Core Processor",
                 d2:"16 GB DDR4 RAM",
@@ -83,7 +83,7 @@ let apple_laptop=[
             id: 5,
             name:'Apple 2023 MacBook Pro Apple M3 - (8 GB/512 GB SSD/macOS Sonoma) MTL73HN/A  (14 Inch, Space Grey, 1.55 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i3 Processor",
                 d2:"8 GB DDR45 RAM",
@@ -101,7 +101,7 @@ let apple_laptop=[
             id: 6,
             name:'Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXV3HN/A  (13 Inch, Midnight, 1.24 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 3 Quad Core Processor",
                 d2:"8 GB LPDDR4X RAM",

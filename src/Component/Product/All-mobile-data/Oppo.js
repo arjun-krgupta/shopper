@@ -21,7 +21,7 @@ let Oppo_product=[
         image:o1,
         name:"OPPO A38 (Glowing Black, 128 GB))",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -38,7 +38,7 @@ let Oppo_product=[
         image:o2,
         name:"OPPO A17k (Blue, 64 GB)  (3 GB RAM)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"3 GB RAM | 64 GB ROM | Expandable Upto 2 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -55,7 +55,7 @@ let Oppo_product=[
         image:o3,
         name:"OPPO A18 (Glowing Black, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -72,7 +72,7 @@ let Oppo_product=[
         image:o4,
         name:"OPPO A57 (Glowing Green, 64 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -89,7 +89,7 @@ let Oppo_product=[
         image:o5,
         name:"OPPO Reno10 Pro+ 5G (Silvery Grey, 256 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -106,7 +106,7 @@ let Oppo_product=[
         image:o6,
         name:"OPPO Reno8T 5G (Midnight Black, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -123,7 +123,7 @@ let Oppo_product=[
         image:o7,
         name:"OPPO Reno10 5G (Ice Blue, 256 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -140,7 +140,7 @@ let Oppo_product=[
         image:o8,
         name:"OPPO Reno11 5G (Rock Grey, 256 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -157,7 +157,7 @@ let Oppo_product=[
         image:o9,
         name:"OPPO F25 Pro 5G (Ocean Blue, 256 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -174,7 +174,7 @@ let Oppo_product=[
         image:o10,
         name:"OPPO F21s Pro (Dawnlight Gold, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -191,7 +191,7 @@ let Oppo_product=[
         image:o11,
         name:"OPPO A77 (Sunset Orange, 128 GB) ",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -208,7 +208,7 @@ let Oppo_product=[
         image:o12,
         name:"OPPO A78 5G (Glowing Blue, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -225,7 +225,7 @@ let Oppo_product=[
         image:o13,
         name:"OPPO A79 5G (Mystery Black, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -242,7 +242,7 @@ let Oppo_product=[
         image:o14,
         name:"OPPO A59 5G (Starry Black, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -259,7 +259,7 @@ let Oppo_product=[
         image:o15,
         name:"OPPO A17 (Lake Blue, 64 GB) ",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",

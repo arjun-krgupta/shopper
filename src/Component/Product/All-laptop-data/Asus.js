@@ -11,7 +11,7 @@ let asus_laptop=[
             id: 1,
             name:'ASUS Chromebook Intel Celeron Dual Core N4500 - (8 GB/128 GB EMMC Storage/Chrome OS) CX1500CKA-NJ0395 Chromebook  (15.6 Inch, Transparent Silver, 1.80 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Celeron Dual Core Processor",
                 d2:"8 GB LPDDR4X RAM",
@@ -29,7 +29,7 @@ let asus_laptop=[
             id: 2,
             name:'ASUS Vivobook Go 15 Intel Celeron Dual Core N4020 - (4 GB/256 GB SSD/Windows 11 Home) E510MA-EJ001W Thin and Light Laptop  (15.6 Inch, Star Black, 1.57 Kg)',
             rating:"4.3★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Celeron Dual Core Processor",
                 d2:"4 GB DDR4 RAM",
@@ -47,7 +47,7 @@ let asus_laptop=[
             id: 3,
             name:'ASUS Vivobook 16 (2023) AMD Ryzen 5 Hexa Core 7530U - (16 GB/512 GB SSD/Windows 11 Home) M1605YA-MB542WS Laptop  (16 Inch, Cool Silver, 1.88 Kg, With MS Office) ',
             rating:"4.0★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 5 Hexa Core Processor",
                 d2:"16 GB DDR4 RAM",
@@ -65,7 +65,7 @@ let asus_laptop=[
             id: 4,
             name:'ASUS Vivobook Pro 15 OLED For Creator AMD Ryzen 7 Octa Core 5800HS - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050) M6500QFB-LK741WS Gaming Laptop  (15.6 Inch, Quiet Blue, 1.80 Kg, With MS Office)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 7 Octa Core Processor",
                 d2:"16 GB DDR4 RAM",
@@ -83,7 +83,7 @@ let asus_laptop=[
             id: 5,
             name:'ASUS ExpertBook B15 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) B1502CBA-NJ1090WS Thin and Light Laptop  (15.6 Inch, Star Black, 1.69 Kg, With MS Office)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i3 Processor",
                 d2:"8 GB DDR45 RAM",
@@ -101,7 +101,7 @@ let asus_laptop=[
             id: 6,
             name:'ASUS TUF Gaming F15, 90WHrs Battery Intel Core i7 13th Gen 13620H - (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeForce RTX 4050/140 W) FX507VU-LP210W Gaming Laptop  (15.6 Inch, Mecha Gray, 2.2 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 3 Quad Core Processor",
                 d2:"8 GB LPDDR4X RAM",

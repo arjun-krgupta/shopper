@@ -20,7 +20,7 @@ let Samsung_product=[
         image:s1,
         name:"SAMSUNG Galaxy A35 5G (Awesome Lilac)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -37,7 +37,7 @@ let Samsung_product=[
         image:s2,
         name:"SAMSUNG Galaxy A55 5G (Awesome Navy)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -54,7 +54,7 @@ let Samsung_product=[
         image:s3,
         name:"SAMSUNG Galaxy F15 5G (Ash Black)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -71,7 +71,7 @@ let Samsung_product=[
         image:s4,
         name:"SAMSUNG Galaxy M14 5G (Icy Silver)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -88,7 +88,7 @@ let Samsung_product=[
         image:s5,
         name:"SAMSUNG galaxy M15 5G (Stone Grey)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -105,7 +105,7 @@ let Samsung_product=[
         image:s6,
         name:"SAMSUNG Galaxy M34 5G (Prism Silver)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -122,7 +122,7 @@ let Samsung_product=[
         image:s7,
         name:"SAMSUNG Galaxy A15 5G (Light Blue)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -139,7 +139,7 @@ let Samsung_product=[
         image:s8,
         name:"SAMSUNG Galaxy F14 5G (GOAT Green)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -156,7 +156,7 @@ let Samsung_product=[
         image:s9,
         name:"SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -173,7 +173,7 @@ let Samsung_product=[
         image:s10,
         name:"SAMSUNG Galaxy S24+ 5G (Cobalt Violet)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -190,7 +190,7 @@ let Samsung_product=[
         image:s11,
         name:"SAMSUNG Galaxy A25 5G (Blue Black)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -207,7 +207,7 @@ let Samsung_product=[
         image:s12,
         name:"SAMSUNG Galaxy S23 FE (Mint, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -224,7 +224,7 @@ let Samsung_product=[
         image:s13,
         name:"SAMSUNG Galaxy A05s (Light Green)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -241,7 +241,7 @@ let Samsung_product=[
         image:s14,
         name:"SAMSUNG Galaxy A05 (Silver)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -258,7 +258,7 @@ let Samsung_product=[
         image:s15,
         name:"Samsung Galaxy S21 FE 5G (Graphite) ",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",

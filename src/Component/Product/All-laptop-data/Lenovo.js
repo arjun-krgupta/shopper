@@ -11,7 +11,7 @@ let lenovo_laptop=[
             id: 1,
             name:'Lenovo V15 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) V15 G4 AMN 1 Thin and Light Laptop  (39.62 cm, Arctic Grey, 1.65 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 3 Quad Core Processor",
                 d2:"8 GB DDR4 RAM",
@@ -29,7 +29,7 @@ let lenovo_laptop=[
             id: 2,
             name:'Lenovo V15 Intel Celeron Dual Core 4th Gen N4500 - (8 GB/256 GB SSD/Windows 11 Home) 82QYA00MIN Laptop  (15.6 inch, Black, 1.7 kg)',
             rating:"4.3★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Celeron Dual Core Processor (4th Gen)",
                 d2:"8 GB DDR4 RAM",
@@ -47,7 +47,7 @@ let lenovo_laptop=[
             id: 3,
             name:'Lenovo IdeaPad Slim 1 AMD Ryzen 5 Quad Core 7520U - (8 GB/512 GB SSD/Windows 11 Home) 15AMN7 Thin and Light Laptop  (15.6 inch, Cloud Grey, 1.58 kg, With MS Office) ',
             rating:"4.0★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 5 Quad Core Processor",
                 d2:"8 GB DDR4 RAM",
@@ -65,7 +65,7 @@ let lenovo_laptop=[
             id: 4,
             name:'Lenovo AMD Ryzen 5 Hexa Core 7530U - (16 GB/512 GB SSD/Windows 11 Home) ThinkBook 16 G6 Thin and Light Laptop  (16 Inch, Arctic Grey, 1.7 Kg, With MS Office) ',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 5 Hexa Core Processor",
                 d2:"16 GB DDR4 RAM",
@@ -83,7 +83,7 @@ let lenovo_laptop=[
             id: 5,
             name:'Lenovo IdeaPad Slim 5 AMD Ryzen 7 Octa Core 7730U - (16 GB/512 GB SSD/Windows 11 Home) 14ABR8 Thin and Light Laptop  (14 Inch, Cloud Grey, 1.46 Kg, With MS Office)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 7 Octa Core Processor",
                 d2:"16 GB DDR45 RAM",
@@ -101,7 +101,7 @@ let lenovo_laptop=[
             id: 6,
             name:'Lenovo AMD Ryzen 3 Quad Core 7330U - (8 GB/512 GB SSD/Windows 11 Home) ThinkBook 15 G5 Thin and Light Laptop  (15.6 Inch, Mineral Grey, 1.7 Kg)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"AMD Ryzen 3 Quad Core Processor",
                 d2:"8 GB LPDDR4X RAM",

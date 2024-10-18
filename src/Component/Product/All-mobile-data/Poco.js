@@ -21,7 +21,7 @@ let Poco_product=[
         image:p1,
         name:"POCO M6 Pro 5G (Forest Green, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -38,7 +38,7 @@ let Poco_product=[
         image:p2,
         name:"POCO M6 Pro 5G (Power Black, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -55,7 +55,7 @@ let Poco_product=[
         image:p3,
         name:"POCO M6 5G (Orion Blue, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -72,7 +72,7 @@ let Poco_product=[
         image:p4,
         name:"POCO C65 (Pastel Blue, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -89,7 +89,7 @@ let Poco_product=[
         image:p5,
         name:"POCO C61 (Ethereal Blue, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -106,7 +106,7 @@ let Poco_product=[
         image:p6,
         name:"POCO X6 Neo 5G (Astral Black, 256 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM | Expandable Upto 1 TB.",
             d2:"16.94 cm (6.67 inch) Full HD+ Display.",
@@ -123,7 +123,7 @@ let Poco_product=[
         image:p7,
         name:"POCO X6 Neo 5G (Martian Orange, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -140,7 +140,7 @@ let Poco_product=[
         image:p8,
         name:"POCO C55 (Forest Green, 64 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"4 GB RAM | 64 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -157,7 +157,7 @@ let Poco_product=[
         image:p9,
         name:"POCO X5 Pro 5G (Astral Black, 256 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -174,7 +174,7 @@ let Poco_product=[
         image:p10,
         name:"POCO C50 (Royal Blue, 32 GB) ",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"3 GB RAM | 32 GB ROM | Expandable Upto 512 GB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -191,7 +191,7 @@ let Poco_product=[
         image:p11,
         name:"POCO M5 (Icy Blue, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 512 GB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -208,7 +208,7 @@ let Poco_product=[
         image:p12,
         name:"POCO F5 5G (Electric Blue, 256 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -225,7 +225,7 @@ let Poco_product=[
         image:p13,
         name:"POCO C51 (Royal Blue, 128 GB",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -242,7 +242,7 @@ let Poco_product=[
         image:p14,
         name:"POCO F5 5G (Carbon Black, 256 GB) ",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -259,7 +259,7 @@ let Poco_product=[
         image:p15,
         name:"POCO M4 5G (Power Black, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -276,7 +276,7 @@ let Poco_product=[
         image:p16,
         name:"POCO X5 Pro 5G (Yellow, 128 GB)",
         rating:"4.3★",
-        review:"84,643 Ratings & 5,742 Reviews",
+        review:"5,742 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",

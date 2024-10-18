@@ -28,7 +28,7 @@ let vivo_product=[
         image:v1,
         name:"Vivo T3x 5G (Crimson Bliss, 128 GB)",
         rating:"4.5★",
-        review:"1,809 Ratings & 53 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -45,7 +45,7 @@ let vivo_product=[
         image:v2,
         name:"Vivo T3x 5G (Celestial Green, 128 GB)",
         rating:"4.5★",
-        review:"1,809 Ratings & 53 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -79,7 +79,7 @@ let vivo_product=[
         image:v4,
         name:"vivo T2x 5G (Black Gladiator, 128 GB) ",
         rating:"4.4★",
-        review:"69,390 Ratings & 4,173 Reviews",
+        review:"4,173 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM",
             d2:"16.71 cm (6.58 inch) Full HD+ Display.",
@@ -96,7 +96,7 @@ let vivo_product=[
         image:v5,
         name:"Vivo T2 Pro 5G (Dune Gold, 256 GB",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -113,7 +113,7 @@ let vivo_product=[
         image:v6,
         name:"Vivo T3 5G (Cosmic Blue, 256 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -130,7 +130,7 @@ let vivo_product=[
         image:v7,
         name:"Vivo V30 5G (Peacock Green, 256 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -147,7 +147,7 @@ let vivo_product=[
         image:v8,
         name:"vivo V30 5G (Classic Black, 256 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -181,7 +181,7 @@ let vivo_product=[
         image:v10,
         name:"Vivo V25 5G (Sunrise Gold, 128 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -198,7 +198,7 @@ let vivo_product=[
         image:v11,
         name:"Vivo V29e 5G (Artistic Blue, 256 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -215,7 +215,7 @@ let vivo_product=[
         image:v12,
         name:"vivo Y27 (Garden Green, 128 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -232,7 +232,7 @@ let vivo_product=[
         image:v13,
         name:"Vivo Y28 5G (Crystal Purple, 128 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"16.66 cm (6.56 inch) Display.",
@@ -249,7 +249,7 @@ let vivo_product=[
         image:v14,
         name:"Vivo Y200e 5G (Saffron Delight, 128 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"16.94 cm (6.67 inch) Full HD+ Display.",
@@ -266,7 +266,7 @@ let vivo_product=[
         image:v15,
         name:"Vivo Y15s (Wave Green, 32 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"3 GB RAM | 32 GB ROM | Expandable Upto 1 TB.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -283,7 +283,7 @@ let vivo_product=[
         image:v16,
         name:"Vivo Y200 5G (Jungle Green, 128 GB",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -300,7 +300,7 @@ let vivo_product=[
         image:v17,
         name:"Vivo Y56 5G (Black Engine, 128 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -317,7 +317,7 @@ let vivo_product=[
         image:v18,
         name:"Vivo Y17s (Glitter Purple, 128 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -334,7 +334,7 @@ let vivo_product=[
         image:v19,
         name:"Vivo V29 5G (Red, 256 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.22 cm (6.78 inch) Full HD+ AMOLED Display.",
@@ -351,7 +351,7 @@ let vivo_product=[
         image:v20,
         name:"Vivo Y35 (Dawn Gold, 128 GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:" 1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",

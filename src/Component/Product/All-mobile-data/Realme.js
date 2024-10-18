@@ -25,9 +25,9 @@ let realme_product=[
     {
         id:1,
         image:r1,
-        name:"Realme 11x 5G (Midnight Black 128 GB)",
+        name:"Realme 11x 5G (Midnight Black 128GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM | Expandable Upto 2 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -42,9 +42,9 @@ let realme_product=[
     {
         id:2,
         image:r2,
-        name:"Realme 11 5G (Glory Black 128 GB)",
+        name:"Realme 11 5G (Glory Black 128GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM | Expandable Upto 2 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -59,9 +59,9 @@ let realme_product=[
     {
         id:3,
         image:r3,
-        name:"Realme 12 Pro+ 5G (Explorer Red 256 GB)",
+        name:"Realme 12 Pro+ 5G (Explorer Red 256GB)",
         rating:"4.5★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -76,9 +76,9 @@ let realme_product=[
     {
         id:4,
         image:r4,
-        name:"Realme 12 Pro 5G (Navigator Beige, 128 GB)",
+        name:"Realme 12 Pro 5G (Navigator Beige, 128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -93,9 +93,9 @@ let realme_product=[
     {
         id:5,
         image:r5,
-        name:"Realme 12x 5G (Twilight Purple, 128 GB)",
+        name:"Realme 12x 5G (Twilight Purple, 128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -110,9 +110,9 @@ let realme_product=[
     {
         id:6,
         image:r6,
-        name:"Realme 12x 5G (Woodland Green,128 GB)",
+        name:"Realme 12x 5G (Woodland Green,128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -129,7 +129,7 @@ let realme_product=[
         image:r7,
         name:"Realme C30s (Stripe Black, 64GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -144,9 +144,9 @@ let realme_product=[
     {
         id:8,
         image:r8,
-        name:"Realme C30s (Stripe Blue,64 GB)",
+        name:"Realme C30s (Stripe Blue,64GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -161,9 +161,9 @@ let realme_product=[
     {
         id:9,
         image:r9,
-        name:"Realme C33 (Aqua Blue,32 GB)",
+        name:"Realme C33 (Aqua Blue,32GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -178,9 +178,9 @@ let realme_product=[
     {
         id:10,
         image:r10,
-        name:"Realme C51 (Mint Green,128 GB)",
+        name:"Realme C51 (Mint Green,128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -195,9 +195,9 @@ let realme_product=[
     {
         id:11,
         image:r11,
-        name:"Realme C53 (Champion Black,128 GB)",
+        name:"Realme C53 (Champion Black,128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -212,9 +212,9 @@ let realme_product=[
     {
         id:12,
         image:r12,
-        name:"Realme C53 (Champion Gold,128 GB)",
+        name:"Realme C53 (Champion Gold,128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -229,9 +229,9 @@ let realme_product=[
     {
         id:13,
         image:r13,
-        name:"Realme C55 (Rainforest,128 GB)",
+        name:"Realme C55 (Rainforest,128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -246,9 +246,9 @@ let realme_product=[
     {
         id:14,
         image:r14,
-        name:"Realme C67 5G (Sunny Oasis,128 GB)",
+        name:"Realme C67 5G (Sunny Oasis,128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -263,9 +263,9 @@ let realme_product=[
     {
         id:15,
         image:r15,
-        name:"Realme C76 5G (Dark Purple, 128 GB)",
+        name:"Realme C76 5G (Dark Purple, 128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -280,9 +280,9 @@ let realme_product=[
     {
         id:16,
         image:r16,
-        name:"Realme Narzo 60x 5G (Stellar Green, 128 GB)",
+        name:"Realme Narzo 60x 5G (Stellar Green, 128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -297,9 +297,9 @@ let realme_product=[
     {
         id:17,
         image:r17,
-        name:"Realme Narzo 70 Pro 5G (Glass Gold, 128 GB)",
+        name:"Realme Narzo 70 Pro 5G (Glass Gold, 128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -314,9 +314,9 @@ let realme_product=[
     {
         id:18,
         image:r18,
-        name:"Realme Narzo N53 (Feather Black, 128 GB)",
+        name:"Realme Narzo N53 (Feather Black, 128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -331,9 +331,9 @@ let realme_product=[
     {
         id:19,
         image:r19,
-        name:"Realme Narzo N55 (Prime Blue, 64 GB)",
+        name:"Realme Narzo N55 (Prime Blue, 64GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",
@@ -348,9 +348,9 @@ let realme_product=[
     {
         id:20,
         image:r20,
-        name:"Realme P1 5G (Phoenix Red, 128 GB)",
+        name:"Realme P1 5G (Phoenix Red, 128GB)",
         rating:"4.4★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.02 cm (6.7 inch) Full HD+ Display.",

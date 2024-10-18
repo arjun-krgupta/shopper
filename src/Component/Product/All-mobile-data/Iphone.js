@@ -18,7 +18,7 @@ let Iphone_product=[
         image:a1,
         name:"Apple iPhone 15 (Black, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -35,7 +35,7 @@ let Iphone_product=[
         image:a2,
         name:"Apple iphone 14+",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 256 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -52,7 +52,7 @@ let Iphone_product=[
         image:a3,
         name:"Apple iPhone 15 (Pink, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -69,7 +69,7 @@ let Iphone_product=[
         image:a4,
         name:"Apple iPhone 13 (Starlight, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -86,7 +86,7 @@ let Iphone_product=[
         image:a5,
         name:"Apple iPhone 12 (White, 64 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -103,7 +103,7 @@ let Iphone_product=[
         image:a6,
         name:"Apple iPhone 12 (Black, 64 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -120,7 +120,7 @@ let Iphone_product=[
         image:a7,
         name:"Apple iPhone 15 Pro (White Titanium, 256 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -137,7 +137,7 @@ let Iphone_product=[
         image:a8,
         name:"Apple iPhone 11 (Black, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -154,7 +154,7 @@ let Iphone_product=[
         image:a9,
         name:"Apple iPhone 13 Pro Max (Alpine Green, 1 TB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -171,7 +171,7 @@ let Iphone_product=[
         image:a10,
         name:"Apple iPhone 11 Pro Max (Midnight Green, 64 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"12 GB RAM | 256 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -188,7 +188,7 @@ let Iphone_product=[
         image:a11,
         name:"Apple iPhone 12 Pro Max (Pacific Blue, 128 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",
@@ -205,7 +205,7 @@ let Iphone_product=[
         image:a12,
         name:"Apple iPhone 13 ((PRODUCT)RED, 256 GB)",
         rating:"4.3★",
-        review:"10,581 Ratings & 1,659 Reviews",
+        review:"1,659 Reviews",
         description:{
             d1:"8 GB RAM | 128 GB ROM.",
             d2:"17.07 cm (6.72 inch) Full HD+ Display.",

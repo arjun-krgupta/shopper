@@ -12,7 +12,7 @@ let dell_laptop=[
             id: 1,
             name:'DELL Inspiron 3520 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop Thin and Light Laptop  (15.6 Inch, Platinum Silver, 1.65 Kg, With MS Office) ',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i3 Core Processor",
                 d2:"8 GB DDR4 RAM",
@@ -30,7 +30,7 @@ let dell_laptop=[
             id: 2,
             name:'DELL Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop Thin and Light Laptop  (38 cm, Carbon Black, 1.65 Kg, With MS Office)',
             rating:"4.3★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i3 Processor (12th Gen)",
                 d2:"8 GB DDR4 RAM",
@@ -48,7 +48,7 @@ let dell_laptop=[
             id: 3,
             name:'DELL 3540 Intel Core i3 12th Gen - (8 GB/512 GB SSD/Ubuntu) Latitude 3540 Laptop  (15.6 inch, Smoky Black) ',
             rating:"4.0★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i3 Processor (12th Gen)",
                 d2:"8 GB DDR4 RAM",
@@ -66,7 +66,7 @@ let dell_laptop=[
             id: 4,
             name:'DELL Inspiron 3520 Intel Core i5 12th Gen 1235U - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop Thin and Light Laptop  (15.6 Inch, Carbon Black, 1.65 Kg, With MS Office) ',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i5 Processor (12th Gen)",
                 d2:"8 GB DDR4 RAM",
@@ -84,7 +84,7 @@ let dell_laptop=[
             id: 5,
             name:'DELL Intel Core i5 13th Gen 13450HX - (16 GB/1 TB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeForce RTX 3050) GN5530N7HY001ORB1O Gaming Laptop  (15.6 inch, Dark Shadow Gray, With MS Office) ',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i5 Processor (13th Gen)",
                 d2:"16 GB DDR45 RAM",
@@ -102,7 +102,7 @@ let dell_laptop=[
             id: 6,
             name:'DELL Inspiron Intel Core i5 12th Gen Core i5 - (8 GB/512 GB SSD/Windows 11 Home) 3520 Laptop  (15.6 inch, Platinum Silver, 1.25 kg, With MS Office)',
             rating:"4.2★",
-            review:'10,581 Ratings & 1,659 Reviews',
+            review:'1,659 Reviews',
             description:{
                 d1:"Intel Core i5 Processor (12th Gen)",
                 d2:"8 GB LPDDR4X RAM",
