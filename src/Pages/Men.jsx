@@ -35,30 +35,30 @@ function Men(props) {
             <img src={nike_icon} alt="" className="max-w-full h-auto object-cover" />
             </div>
         </div> */}
-         <div className='flex justify-center items-center gap-4 w-full mt-2'>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/hoodie')}}>
+         <div className='flex justify-center items-center gap-2 sm:gap-4 w-full mt-2'>
+            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer " onClick={()=>{redirect('/hoodie')}}>
             <img src={hoodie_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-sm text-center font-semibold">Hoodie</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">Hoodie</p>
             </div>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/shirt')}}>
+            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/shirt')}}>
             <img src={shirt_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-sm text-center font-semibold">Shirt</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">Shirt</p>
             </div>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7 " onClick={()=>{redirect('/pant')}}>
+            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/pant')}}>
             <img src={pant_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-sm text-center font-semibold">Pant</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">Pant</p>
             </div>
-            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/lower')}}>
+            <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/lower')}}>
             <img src={lower_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-sm text-center font-semibold">Lower</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">Lower</p>
             </div>
-           <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer sm:me-2 lg:me-7" onClick={()=>{redirect('/jeans')}}>
+           <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/jeans')}}>
            <img src={jeans_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-           <p className="text-sm text-center font-semibold">Jeans</p>
+           <p className="text-xs sm:text-sm text-center font-semibold">Jeans</p>
            </div>
             <div className="w-11 hover:text-blue-700 sm:w-16 md:w-20 cursor-pointer" onClick={()=>{redirect('/tshirt_men')}}>
             <img src={tshirt_icon} alt="" className="max-w-full h-auto object-cover rounded-[50px]" />
-            <p className="text-sm text-center font-semibold">T-shirt</p>
+            <p className="text-xs sm:text-sm text-center font-semibold">T-shirt</p>
             </div>
         </div>
 
