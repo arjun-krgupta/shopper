@@ -73,7 +73,7 @@ function Men(props) {
             <hr className='w-full' />
             <div className="flex lg:justify-center gap-2 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {hoodie.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -100,7 +100,7 @@ function Men(props) {
             <hr className='w-full' />
             <div className="flex lg:justify-center gap-2 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {jeans.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -127,7 +127,7 @@ function Men(props) {
             <hr className='w-full' />
             <div className="flex lg:justify-center gap-2 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {shirt.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48" key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48" key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -154,7 +154,7 @@ function Men(props) {
             <hr className='w-full' />
             <div className="flex lg:justify-center gap-2 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {lower.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -181,7 +181,7 @@ function Men(props) {
             <hr className='w-full' />
             <div className="flex lg:justify-center gap-2 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {pant.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
@@ -208,7 +208,7 @@ function Men(props) {
             <hr className='w-full' />
             <div className="flex lg:justify-center gap-2 px-3 overflow-x-scroll webkit w-full my-[10px]">
             {t_shirt_men.map((val,i)=>
-              <div className="flex flex-col items-center gap-2 w-36 sm:w-40 md:w-48 " key={i}>
+              <div className="flex flex-col items-center gap-2 w-40 sm:w-44 md:w-48 " key={i}>
                 <img src={val.image} alt="" className='max-w-full h-auto rounded' />
                <div className="flex flex-col items-center">
                 <div className="text-sm text-gray-400">{val.brand}</div>
