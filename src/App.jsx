@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './Component/Navbar/Navbar';
+import Navbar from './Component/Navbar';
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
 import Laptop from './Pages/Laptop';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
-import Home from './Component/Home/Home';
+import Home from './Component/Home';
 import Mobile from './Pages/Mobile'
 import Realme from './Pages/Mobile/Realme'
 import Vivo from './Pages/Mobile/Vivo'

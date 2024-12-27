@@ -122,7 +122,7 @@ function Mobile(props) {
         </button>
       </div>
         <hr className='w-full mt-1' />
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-6">
             <h4 className='font-bold text-xl my-[6px] cursor-pointer hover:underline' onClick={()=>{redirect('/realme')}} >Realme Smartphones</h4>
             <Link to='/Realme' className=''>View all</Link>
             </div>
